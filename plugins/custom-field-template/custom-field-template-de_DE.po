@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-09 21:06+0900\n"
+"PO-Revision-Date: 2009-01-18 12:27+0100\n"
+"Last-Translator: Franz Josef Kaiser <24-7@gmx.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:83
+#: custom-field-template/custom-field-template.php:84
+#: custom-field-template/custom-field-template.php:178
+#: custom-field-template/custom-field-template.php:235
+#: custom-field-template/custom-field-template.php:824
+msgid "Custom Field Template"
+msgstr "Custom Field Template"
+
+#: custom-field-template/custom-field-template.php:95
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: custom-field-template/custom-field-template.php:106
+msgid "Default Template"
+msgstr "Standardvorlage"
+
+#: custom-field-template/custom-field-template.php:198
+#: custom-field-template/custom-field-template.php:202
+#: custom-field-template/custom-field-template.php:210
+#: custom-field-template/custom-field-template.php:218
+msgid "Options updated."
+msgstr "Einstellungen aktualisiert"
+
+#: custom-field-template/custom-field-template.php:223
+msgid "Options resetted."
+msgstr "Einstellungen auf Standard zurückgesetzt"
+
+#: custom-field-template/custom-field-template.php:227
+msgid "Options deleted."
+msgstr "Einstellungen gelöscht"
+
+#: custom-field-template/custom-field-template.php:241
+msgid "Custom Field Template Options"
+msgstr "Einstellungen für benutzerdefinierte Felder"
+
+#: custom-field-template/custom-field-template.php:251
+#, php-format
+msgid "Template Title %d"
+msgstr "Vorlagentitel %d"
+
+#: custom-field-template/custom-field-template.php:253
+#, php-format
+msgid "Template Instruction %d"
+msgstr "Notizen zur Vorlage %d"
+
+#: custom-field-template/custom-field-template.php:255
+#, php-format
+msgid "Template Content %d"
+msgstr "Vorlage %d"
+
+#: custom-field-template/custom-field-template.php:262
+msgid "In case that you would like to insert multiple images at once in use of the custom field media buttons"
+msgstr "Falls Sie mehrere Bilder auf einmal mit dem \"Medien hochladen\"-Button einfügen wollen"
+
+# Deutsche Übersetzung: Franz Josef Kaiser.
+#: custom-field-template/custom-field-template.php:263
+msgid "Use multiple image inset"
+msgstr "Verwenden von Mehrfachbildern"
+
+#: custom-field-template/custom-field-template.php:263
+msgid "Caution:"
+msgstr "Hinweis:"
+
+#: custom-field-template/custom-field-template.php:263
+msgid "You need to edit `wp-admin/includes/media.php`. Delete or comment out the code in the function media_send_to_editor."
+msgstr "Hierfür müssen Sie in der Datei `wp-admin/includes/media.php` öffnen und darin die Funktion 'media_send_to_editor'  auskommentieren (/*Kommentar*/) oder löschen."
+
+#: custom-field-template/custom-field-template.php:267
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "Falls Sie (als Formularfeld Titel) benutzerdefinierte Schlüssel durch 'Labels' ersetzen wollen, falls ein 'label' (beim Format) gesetzt ist "
+
+#: custom-field-template/custom-field-template.php:268
+msgid "Use labels in place of custom keys"
+msgstr "Anzeigen von `Labels`, statt benutzerdefinierten Schlüsseln."
+
+#: custom-field-template/custom-field-template.php:271
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "Falls Sie < p > (Text) und < br > (Zeilenumbruch) Html-Tags in (Formularfeldern vom Typ) `textarea` automatisch anfügen lassen wollen"
+
+#: custom-field-template/custom-field-template.php:272
+msgid "Use wpautop function"
+msgstr "Verwende 'wpautop'-Funktion"
+
+#: custom-field-template/custom-field-template.php:276
+#: custom-field-template/custom-field-template.php:295
+#: custom-field-template/custom-field-template.php:322
+#: custom-field-template/custom-field-template.php:350
+msgid "Update Options &raquo;"
+msgstr "Einstellungen aktualisieren &raquo;"
+
+#: custom-field-template/custom-field-template.php:285
+#: custom-field-template/custom-field-template.php:304
+#: custom-field-template/custom-field-template.php:331
+#: custom-field-template/custom-field-template.php:359
+#: custom-field-template/custom-field-template.php:431
+#: custom-field-template/custom-field-template.php:447
+msgid "Click to toggle"
+msgstr "zum Aufklappen klicken"
+
+#: custom-field-template/custom-field-template.php:286
+msgid "CSS"
+msgstr "CSS (Darstellung im Admin-Bereich)"
+
+#: custom-field-template/custom-field-template.php:305
+msgid "[cft] Shortcode Format"
+msgstr "[cft] Shortcode Format (Darstellung in Seite/Artikel)"
+
+#: custom-field-template/custom-field-template.php:308
+msgid "[key] will be converted into the value of [key]."
+msgstr "Anm.: [key] wird in den Wert (value) [key] umgewandelt."
+
+#: custom-field-template/custom-field-template.php:332
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP CODE (im Versuchstadium)"
+
+#: custom-field-template/custom-field-template.php:334
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "Sind Sie sich sicher, dass Sie Php Codes verwenden wollen? Sie sollten diese Funktion nur verwenden, wenn Sie genau wissen was Sie tun. - Anm.: Diese Funktion befindet sich im Versuchstadium."
+
+#: custom-field-template/custom-field-template.php:335
+msgid "This option is available only for `radio` and `select` types. You must set $values as an array."
+msgstr "Diese Einstellung is nur für'radio'- & 'select'-Typen möglich. Sie müssen '$values' als 'array' setzen."
+
+#: custom-field-template/custom-field-template.php:360
+msgid "Option List"
+msgstr "Liste der erlaubten Format-Einstellungen"
+
+#: custom-field-template/custom-field-template.php:432
+msgid "Reset Options"
+msgstr "Einstellungen zurücksetzen"
+
+#: custom-field-template/custom-field-template.php:434
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Sind Sie sicher, dass Sie die Einstellungen zurück setzen wollen? Die Einstellungen werden auf die Ursprungseinstellungen zurück gesetzt."
+
+#: custom-field-template/custom-field-template.php:438
+msgid "Unset Options &raquo;"
+msgstr "Einstellungen zurücksetzen &raquo;"
+
+#: custom-field-template/custom-field-template.php:448
+msgid "Delete Options"
+msgstr "Einstellungen löschen"
+
+#: custom-field-template/custom-field-template.php:450
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "Sind Sie sicher, dass Sie alle Einstellungen löschen wollen? Die von Ihnen vorgenommenen Einstellungen werden unwiderruflich gelöscht."
+
+#: custom-field-template/custom-field-template.php:454
+msgid "Delete Options &raquo;"
+msgstr "Einstellungen löschen &raquo;"
+
+#: custom-field-template/custom-field-template.php:597
+msgid "Clear"
+msgstr "Löschen"
+
+#: custom-field-template/custom-field-template.php:712
+msgid "Add Media"
+msgstr "Medien hochladen"
+
+#: custom-field-template/custom-field-template.php:714
+msgid "Add an Image"
+msgstr "Bild hochladen"
+
+#: custom-field-template/custom-field-template.php:716
+msgid "Add Video"
+msgstr "Video hochladen"
+
+#: custom-field-template/custom-field-template.php:718
+msgid "Add Audio"
+msgstr "Audio hochladen"
+
+#: custom-field-template/custom-field-template.php:729
+msgid "Toggle"
+msgstr "Aufklappen"
+
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近の投稿 Ext"
+#~ msgid "camera"
+#~ msgstr "機種"
+#~ msgid "aperture"
+#~ msgstr "絞り値"
+#~ msgid "focal_length"
+#~ msgstr "焦点距離"
+#~ msgid "ISO"
+#~ msgstr "ISO"
+#~ msgid "shutter_speed"
+#~ msgstr "シャッタースピード"
+#~ msgid "created_timestamp"
+#~ msgstr "撮影日時"
+

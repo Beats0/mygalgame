@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template 1.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-22 10:32+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: http://sabood.ir <info.sabood@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: fa_ir\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: Mehdi Zare;\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:142
+#: custom-field-template/custom-field-template.php:143
+#: custom-field-template/custom-field-template.php:163
+#: custom-field-template/custom-field-template.php:594
+#: custom-field-template/custom-field-template.php:869
+#: custom-field-template/custom-field-template.php:2140
+#: custom-field-template/custom-field-template.php:2269
+msgid "Custom Field Template"
+msgstr "قالب زمینه های دلخواه"
+
+#: custom-field-template/custom-field-template.php:275
+#: custom-field-template/custom-field-template.php:2471
+msgid "Load"
+msgstr "بارگزاری"
+
+#: custom-field-template/custom-field-template.php:431
+msgid "read more"
+msgstr "اطلاعات بیشتر"
+
+#: custom-field-template/custom-field-template.php:449
+#: custom-field-template/custom-field-template.php:459
+msgid "Custom Fields"
+msgstr "زمینه های دلخواه"
+
+#: custom-field-template/custom-field-template.php:489
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: custom-field-template/custom-field-template.php:514
+msgid "Default Template"
+msgstr "قالب پیش فرض"
+
+#: custom-field-template/custom-field-template.php:730
+msgid ""
+"You can not use the following words as the field key: `content`, "
+"`post_title`, and `excerpt`."
+msgstr ""
+"شما نمی توانید کلمات زیر را به عنوان یک کلید در قسمت استفاده کنید:  "
+"`content`, `post_title`, and `excerpt`."
+
+#: custom-field-template/custom-field-template.php:745
+#: custom-field-template/custom-field-template.php:765
+#: custom-field-template/custom-field-template.php:769
+#: custom-field-template/custom-field-template.php:781
+#: custom-field-template/custom-field-template.php:789
+#: custom-field-template/custom-field-template.php:806
+msgid "Options updated."
+msgstr "تنظیمات به روز شد"
+
+#: custom-field-template/custom-field-template.php:810
+msgid "Value Counts rebuilt."
+msgstr "مقدار شمارش بازسازی"
+
+#: custom-field-template/custom-field-template.php:813
+msgid "Tags rebuilt."
+msgstr "بازسازی برچسب ها"
+
+#: custom-field-template/custom-field-template.php:822
+msgid "Options imported."
+msgstr "تنظیمات درون سازی شد"
+
+#: custom-field-template/custom-field-template.php:829
+msgid "Options resetted."
+msgstr "تنظیمات بازگردانی شد"
+
+#: custom-field-template/custom-field-template.php:833
+msgid "Options deleted."
+msgstr "تنظیمات پاک شد"
+
+#: custom-field-template/custom-field-template.php:875
+#: custom-field-template/custom-field-template.php:921
+#: custom-field-template/custom-field-template.php:1022
+#: custom-field-template/custom-field-template.php:1041
+#: custom-field-template/custom-field-template.php:1070
+#: custom-field-template/custom-field-template.php:1101
+#: custom-field-template/custom-field-template.php:1142
+#: custom-field-template/custom-field-template.php:1163
+#: custom-field-template/custom-field-template.php:1180
+#: custom-field-template/custom-field-template.php:1342
+#: custom-field-template/custom-field-template.php:1358
+#: custom-field-template/custom-field-template.php:1374
+#: custom-field-template/custom-field-template.php:1390
+#: custom-field-template/custom-field-template.php:1406
+msgid "Click to toggle"
+msgstr "برای تغییر وضعیت کلیک کنید"
+
+#: custom-field-template/custom-field-template.php:876
+msgid "Custom Field Template Options"
+msgstr "Custom Field Template تنظیمات  "
+
+#: custom-field-template/custom-field-template.php:886
+#: custom-field-template/custom-field-template.php:2318
+#: custom-field-template/custom-field-template.php:2319
+msgid "Disable"
+msgstr "غیر فعال کردن"
+
+#: custom-field-template/custom-field-template.php:888
+msgid "Template Title"
+msgstr "عنوان قالب"
+
+#: custom-field-template/custom-field-template.php:890
+msgid "Template Instruction"
+msgstr "دستور قالب"
+
+#: custom-field-template/custom-field-template.php:892
+#: custom-field-template/custom-field-template.php:1117
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: custom-field-template/custom-field-template.php:894
+#: custom-field-template/custom-field-template.php:1118
+msgid "Both"
+msgstr "هر دو"
+
+#: custom-field-template/custom-field-template.php:895
+#: custom-field-template/custom-field-template.php:1119
+msgid "Post"
+msgstr "نوشته"
+
+#: custom-field-template/custom-field-template.php:896
+#: custom-field-template/custom-field-template.php:1120
+msgid "Page"
+msgstr "صفحه"
+
+#: custom-field-template/custom-field-template.php:897
+#: custom-field-template/custom-field-template.php:1121
+msgid "Custom Post Type (comma-deliminated)"
+msgstr "نوع نوشته سفارشی (جدا کننده کاما)"
+
+#: custom-field-template/custom-field-template.php:899
+msgid "Post ID (comma-deliminated)"
+msgstr " نوشته (جدا کننده کاما)ID"
+
+#: custom-field-template/custom-field-template.php:901
+#: custom-field-template/custom-field-template.php:1123
+msgid "Category ID (comma-deliminated)"
+msgstr "  دسته (جدا کننده کاما)ID"
+
+#: custom-field-template/custom-field-template.php:903
+msgid "Page Template file name(s) (comma-deliminated)"
+msgstr "نام فایل قالب (جدا کننده کاما)"
+
+#: custom-field-template/custom-field-template.php:905
+msgid "Template Content"
+msgstr "محتوی قالب"
+
+#: custom-field-template/custom-field-template.php:912
+#: custom-field-template/custom-field-template.php:1013
+#: custom-field-template/custom-field-template.php:1032
+#: custom-field-template/custom-field-template.php:1061
+#: custom-field-template/custom-field-template.php:1092
+#: custom-field-template/custom-field-template.php:1133
+msgid "Update Options &raquo;"
+msgstr "به روز رسانی تنظیمات &raquo;"
+
+#: custom-field-template/custom-field-template.php:922
+msgid "Global Settings"
+msgstr "تنظیمات یکپارچه"
+
+#: custom-field-template/custom-field-template.php:937
+msgid ""
+"In case that you would like to replace custom keys by labels if `label` is "
+"set"
+msgstr "در صورتی که شما می خواهید برچسب را با کلدهای سفارشی جایگزین کنید"
+
+#: custom-field-template/custom-field-template.php:938
+msgid "Use labels in place of custom keys"
+msgstr "برچسب ها را در مکان کلیدهای سفارشی استفاده کنید"
+
+#: custom-field-template/custom-field-template.php:941
+msgid ""
+"In case that you would like to add p and br tags in textareas automatically"
+msgstr ""
+"In case that you would like to add p and br tags in textareas automatically"
+
+#: custom-field-template/custom-field-template.php:942
+msgid "Use wpautop function"
+msgstr " wpautop استفاده از تابع "
+
+#: custom-field-template/custom-field-template.php:946
+msgid ""
+"In case that you would like to save values automatically in switching "
+"templates"
+msgstr ""
+"In case that you would like to save values automatically in switching "
+"templates"
+
+#: custom-field-template/custom-field-template.php:947
+msgid "Use the auto save in switching templates"
+msgstr "استفاده از ذخیره خودکار در تغییر قالبها"
+
+#: custom-field-template/custom-field-template.php:951
+msgid ""
+"In case that you would like to disable input fields of the custom field "
+"template temporarily"
+msgstr ""
+"In case that you would like to disable input fields of the custom field "
+"template temporarily"
+
+#: custom-field-template/custom-field-template.php:952
+msgid "Use the `Disable` button. The default custom fields will be superseded."
+msgstr ""
+"Use the `Disable` button. The default custom fields will be superseded."
+
+#: custom-field-template/custom-field-template.php:956
+msgid "In case that you would like to forbid to use the initialize button."
+msgstr "In case that you would like to forbid to use the initialize button."
+
+#: custom-field-template/custom-field-template.php:957
+msgid "Disable the initialize button"
+msgstr "غیر فعال کردن کلید مقداردهی اولیه"
+
+#: custom-field-template/custom-field-template.php:961
+msgid "In case that you would like to forbid to use the save button."
+msgstr "در صورتی است که شما می خواهید به منع استفاده از دکمه ذخیره اقدام کنید."
+
+#: custom-field-template/custom-field-template.php:962
+msgid "Disable the save button"
+msgstr "غیر فعال کردن کلید ذخیره"
+
+#: custom-field-template/custom-field-template.php:966
+msgid "In case that you would like to forbid to use the default custom fields."
+msgstr ""
+"در صورتی است که شما می خواهید به منع استفاده از پیش فرض فیلدهای سفارشی اقدام "
+"کنید."
+
+#: custom-field-template/custom-field-template.php:967
+msgid "Disable the default custom fields"
+msgstr "غیرفعال کردن زمینه های دلخواه پیش فرض"
+
+#: custom-field-template/custom-field-template.php:971
+msgid "In case that you would like to forbid to use the quick edit."
+msgstr ""
+"در صورتی است که شما می خواهید برای منع به استفاده از ویرایش های سریع اقدام "
+"کنید."
+
+#: custom-field-template/custom-field-template.php:972
+msgid "Disable the quick edit"
+msgstr "غیرفعال کردن ویرایش سریع"
+
+#: custom-field-template/custom-field-template.php:976
+msgid ""
+"In case that you would like to forbid to display the custom field column on "
+"the edit post list page."
+msgstr ""
+"در صورت استی که شما می خواهید به منع ستون زمینه سفارشی برای نمایش در ویرایش "
+"پست صفحه فهرست اقدام نمائید."
+
+#: custom-field-template/custom-field-template.php:977
+msgid "Disable the custom field column (The quick edit also does not work.)"
+msgstr "غیرفعال کردن ستون فیلدهای سفارشی(ویرایش سریع نیز کار نخواهد کرد)"
+
+#: custom-field-template/custom-field-template.php:981
+msgid ""
+"In case that you would like to replace the box title with the template title."
+msgstr "در صورتی که شما می خواهید عنوان جعبه را با عنوان قالب جایگزین کنید."
+
+#: custom-field-template/custom-field-template.php:982
+msgid "Replace the box title"
+msgstr "جایگزینی عنوان جعبه"
+
+#: custom-field-template/custom-field-template.php:986
+msgid "In case that you would like to use the shortcode in the widget."
+msgstr "In case that you would like to use the shortcode in the widget."
+
+#: custom-field-template/custom-field-template.php:987
+msgid "Use the shortcode in the widget"
+msgstr "استفاده از کدهای کوتاه در ابزارک"
+
+# http://sabood.ir
+# Mehdi Zare
+#: custom-field-template/custom-field-template.php:991
+msgid "In case that you would like to use the shortcode in the excerpt."
+msgstr ""
+"در صورتی است که شما می خواهید کدهای کوتاه را در منتخب کردن استفاده کنید."
+
+# http://sabood.ir
+# Mehdi Zare
+#: custom-field-template/custom-field-template.php:992
+msgid "Use the shortcode in the excerpt"
+msgstr "استفاده از کدهای کوتاه در منتخب کردن"
+
+#: custom-field-template/custom-field-template.php:1002
+msgid "Text to place before every list which is called by the cft shortcode"
+msgstr "Text to place before every list which is called by the cft shortcode"
+
+#: custom-field-template/custom-field-template.php:1004
+msgid "Text to place after every list which is called by the cft shortcode"
+msgstr "Text to place after every list which is called by the cft shortcode"
+
+#: custom-field-template/custom-field-template.php:1006
+msgid "Text to place before every value which is called by the cft shortcode"
+msgstr "Text to place before every value which is called by the cft shortcode"
+
+#: custom-field-template/custom-field-template.php:1008
+msgid "Text to place after every value which is called by the cft shortcode"
+msgstr "Text to place after every value which is called by the cft shortcode"
+
+#: custom-field-template/custom-field-template.php:1023
+msgid "ADMIN CSS"
+msgstr "مدیریت (CSS)"
+
+#: custom-field-template/custom-field-template.php:1042
+msgid "[cft] and [cftsearch] Shortcode Format"
+msgstr "قالب کدهای کوتاه [cft]   و [cftsearch]   "
+
+#: custom-field-template/custom-field-template.php:1045
+msgid "For [cft], [key] will be converted into the value of [key]."
+msgstr "For [cft], [key] will be converted into the value of [key]."
+
+#: custom-field-template/custom-field-template.php:1046
+msgid "For [cftsearch], [key] will be converted into the input field."
+msgstr "For [cftsearch], [key] will be converted into the input field."
+
+#: custom-field-template/custom-field-template.php:1055
+#: custom-field-template/custom-field-template.php:1126
+msgid "Use PHP"
+msgstr " PHP استفاده  "
+
+#: custom-field-template/custom-field-template.php:1071
+msgid "PHP CODE (Experimental Option)"
+msgstr "کد PHP (تنظیمات آزمایشی)"
+
+#: custom-field-template/custom-field-template.php:1073
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "Are you sure to save PHP codes? Please do it at your own risk."
+
+#: custom-field-template/custom-field-template.php:1074
+msgid "For `text` and `textarea`, you must set $value as an string."
+msgstr "For `text` and `textarea`, you must set $value as an string."
+
+#: custom-field-template/custom-field-template.php:1076
+msgid ""
+"For `checkbox`, `radio`, and `select`, you must set $values as an array."
+msgstr ""
+"For `checkbox`, `radio`, and `select`, you must set $values as an array."
+
+#: custom-field-template/custom-field-template.php:1102
+msgid "Auto Hook of `the_content()` (Experimental Option)"
+msgstr "Auto Hook of `the_content()` (Experimental Option)"
+
+#: custom-field-template/custom-field-template.php:1112
+msgid "Position"
+msgstr "حالت"
+
+#: custom-field-template/custom-field-template.php:1113
+msgid "Before the content"
+msgstr "قبل از محتوی"
+
+#: custom-field-template/custom-field-template.php:1114
+msgid "After the content"
+msgstr "بعد از محتوی"
+
+#: custom-field-template/custom-field-template.php:1115
+#, php-format
+msgid "Inside the content ([cfthook hook=%d])"
+msgstr "در داخل محتوی  ([cfthook hook=%d])"
+
+#: custom-field-template/custom-field-template.php:1125
+msgid "Content"
+msgstr "محتوی"
+
+#: custom-field-template/custom-field-template.php:1127
+msgid "Apply to feeds"
+msgstr "انجام برای فیدها"
+
+#: custom-field-template/custom-field-template.php:1143
+msgid "Rebuild Value Counts"
+msgstr "بازسازی مقدار شمارش ها"
+
+#: custom-field-template/custom-field-template.php:1145
+msgid "Are you sure to rebuild all value counts?"
+msgstr "آیا شما مطمئنید که می خواهید همه مقدار شمارش ها را بازسازی کنید؟"
+
+#: custom-field-template/custom-field-template.php:1149
+msgid ""
+"Value Counts are used for temporarily saving how many values in each key. "
+"Set `valueCount = true` into fields."
+msgstr ""
+"شمارش مقدارها برای ذخیره سازی قالبها استفاده می شود تا چگونه مقدارها در هر "
+"کلید قرار گیرد Set `valueCount = true` into fields."
+
+#: custom-field-template/custom-field-template.php:1153
+msgid "Rebuild Value Counts &raquo;"
+msgstr "بازسازی شمارش مقدارها"
+
+#: custom-field-template/custom-field-template.php:1164
+msgid "Rebuild Tags"
+msgstr "بازسازی برچسب ها"
+
+#: custom-field-template/custom-field-template.php:1166
+msgid "Are you sure to rebuild tags?"
+msgstr "آیا مطمئنید که می خواهید برچسب ها را بازسازی کنید؟"
+
+#: custom-field-template/custom-field-template.php:1170
+msgid "Rebuild Tags &raquo;"
+msgstr "بازسازی برچسب ها &raquo;"
+
+#: custom-field-template/custom-field-template.php:1181
+msgid "Option List"
+msgstr "لیست تنظیمات"
+
+#: custom-field-template/custom-field-template.php:1343
+msgid "Export Options"
+msgstr "برون بری تنظیمات"
+
+#: custom-field-template/custom-field-template.php:1349
+msgid "Export Options &raquo;"
+msgstr "تنظیمات برون بری &raquo;"
+
+#: custom-field-template/custom-field-template.php:1359
+msgid "Import Options"
+msgstr "درون ریزی تنظیمات"
+
+#: custom-field-template/custom-field-template.php:1361
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید تنظیمات را درون سازی کنید؟ تنظیمات رونویسی "
+"خواهد شد"
+
+#: custom-field-template/custom-field-template.php:1365
+msgid "Import Options &raquo;"
+msgstr "تنظیمات درون سازی &raquo;"
+
+#: custom-field-template/custom-field-template.php:1375
+msgid "Reset Options"
+msgstr "بازگردانی تنظیمات"
+
+#: custom-field-template/custom-field-template.php:1377
+msgid ""
+"Are you sure to reset options? Options you set will be reset to the default "
+"settings."
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید تنظیمات را بازگردانی کنید؟ تنظیمات به صورت "
+"پیش فرض بازگردانده خواهد شد"
+
+#: custom-field-template/custom-field-template.php:1381
+msgid "Reset Options &raquo;"
+msgstr "بازگردانی تنظیمات &raquo;"
+
+#: custom-field-template/custom-field-template.php:1391
+msgid "Delete Options"
+msgstr "پاک کردن تنظیمات"
+
+#: custom-field-template/custom-field-template.php:1393
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr ""
+"آیا شما مطمئن هستید که می خواهید تنظیمات را پاک کنید؟ تنظیمات شما پاک خواهد "
+"شد"
+
+#: custom-field-template/custom-field-template.php:1397
+msgid "Delete Options &raquo;"
+msgstr "پاک کردن تنظیمات &raquo;"
+
+#: custom-field-template/custom-field-template.php:1407
+msgid "Donation"
+msgstr "هدیه"
+
+#: custom-field-template/custom-field-template.php:1409
+msgid ""
+"If you liked this plugin, please make a donation via paypal! Any amount is "
+"welcome. Your support is much appreciated."
+msgstr ""
+"اگر شما حامی این افزونه هستید لطفا اقدام به ایجاد یک کمک مالی از طریق پی پال "
+"به هر مقداری که مایلید نمایید حمایت شما بسیار باعث بهبود کار ماست. "
+
+#: custom-field-template/custom-field-template.php:1505
+#: custom-field-template/custom-field-template.php:1626
+#: custom-field-template/custom-field-template.php:1706
+#: custom-field-template/custom-field-template.php:1880
+#: custom-field-template/custom-field-template.php:2065
+msgid "Add New"
+msgstr "اضافه کردن یک جدید"
+
+#: custom-field-template/custom-field-template.php:1636
+msgid "Clear"
+msgstr "پاکسازی"
+
+#: custom-field-template/custom-field-template.php:1722
+msgid "Select"
+msgstr "انتخاب"
+
+#: custom-field-template/custom-field-template.php:1787
+msgid "Add an Image"
+msgstr "اضافه کردن یک عکس"
+
+#: custom-field-template/custom-field-template.php:1792
+msgid "Add Video"
+msgstr "اضافه کردن ویدئو"
+
+#: custom-field-template/custom-field-template.php:1797
+msgid "Add Audio"
+msgstr "اضافه کردن صدا"
+
+#: custom-field-template/custom-field-template.php:1801
+msgid "Add Media"
+msgstr "اضافه کردن رسانه"
+
+#: custom-field-template/custom-field-template.php:1808
+msgid "Toggle"
+msgstr "تغییر وضعیت"
+
+#: custom-field-template/custom-field-template.php:1900
+#: custom-field-template/custom-field-template.php:2067
+msgid "Delete"
+msgstr "حذف"
+
+#: custom-field-template/custom-field-template.php:2319
+msgid "Enable"
+msgstr "فعال کردن"
+
+#: custom-field-template/custom-field-template.php:2323
+msgid "Initialize"
+msgstr "مقداردهی اولیه"
+
+#: custom-field-template/custom-field-template.php:2324
+msgid "Are you sure to reset current values? Default values will be loaded."
+msgstr ""
+"آیا شما مطمئن هستید که برای تنظیم مجدد مقدار فعلی؟ مقادیر پیش فرض بارگذاری "
+"خواهد شد."
+
+#: custom-field-template/custom-field-template.php:2329
+msgid "Save"
+msgstr "ذخیره"
+
+#: custom-field-template/custom-field-template.php:2980
+msgid "Search &raquo;"
+msgstr "جستجو &raquo;"
+
+#~ msgid "Use multiple image inset"
+#~ msgstr "да"
+
+#~ msgid "Caution:"
+#~ msgstr "Предупреждение:"
+
+#~ msgid ""
+#~ "You need to edit `wp-admin/includes/media.php`. Delete or comment out the "
+#~ "code in the function media_send_to_editor."
+#~ msgstr ""
+#~ "вам нужно отредактировать файл <code>wp-admin/includes/media.php</code>, "
+#~ "удалите или закомментируйте код в функции media_send_to_editor."
+
+#~ msgid "Admin CSS"
+#~ msgstr "CSS шаблона в админ. панели"

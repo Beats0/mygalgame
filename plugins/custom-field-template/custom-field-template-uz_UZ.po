@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template 0.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-26 17:40+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alisher <bigtaur@mail.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Uzbek\n"
+"X-Poedit-Country: UZBEKISTAN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:83
+#: custom-field-template/custom-field-template.php:84
+#: custom-field-template/custom-field-template.php:161
+#: custom-field-template/custom-field-template.php:210
+#: custom-field-template/custom-field-template.php:741
+msgid "Custom Field Template"
+msgstr "Custom field andazalari"
+
+#: custom-field-template/custom-field-template.php:95
+msgid "Settings"
+msgstr "Sozlanmalar"
+
+#: custom-field-template/custom-field-template.php:106
+msgid "Default Template"
+msgstr "Andaza namunasi"
+
+#: custom-field-template/custom-field-template.php:181
+#: custom-field-template/custom-field-template.php:185
+#: custom-field-template/custom-field-template.php:193
+msgid "Options updated."
+msgstr "Sozlanmalar yangilandi."
+
+#: custom-field-template/custom-field-template.php:198
+msgid "Options resetted."
+msgstr "Sozlanmalar birlamchi holarga qaytarildi."
+
+#: custom-field-template/custom-field-template.php:202
+msgid "Options deleted."
+msgstr "Sozlanmalar o'chirildi."
+
+#: custom-field-template/custom-field-template.php:216
+msgid "Custom Field Template Options"
+msgstr "Custom Field Template sozlanmalari"
+
+#: custom-field-template/custom-field-template.php:226
+#, php-format
+msgid "Template Title %d"
+msgstr "Andaza sarlavhasi %d"
+
+#: custom-field-template/custom-field-template.php:228
+#, php-format
+msgid "Template Instruction %d"
+msgstr "Andaza yo'riqnomasi %d"
+
+#: custom-field-template/custom-field-template.php:230
+#, php-format
+msgid "Template Content %d"
+msgstr "Andaza mazmuni %d"
+
+#: custom-field-template/custom-field-template.php:237
+msgid "In case that you would like to insert multiple images at once in use of the custom field media buttons"
+msgstr "Agar bir martada bir necha tasvirlarni qo'shishni hohlasangiz"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "Use multiple image inset"
+msgstr "Bir nechta tasvirni ishlatish"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "Caution:"
+msgstr "Ogohlantirish:"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "You need to edit `wp-admin/includes/media.php`. Delete or comment out the code in the function media_send_to_editor."
+msgstr "Siz `code>wp-admin/includes/media.php` faylini tahrir qilishingiz lozim. Kodni media_send_to_editor amalida o'chiring yoki sharhlang."
+
+#: custom-field-template/custom-field-template.php:242
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "`Label` ko'rsatilgan holatda erkin kalitlarni yorliqlar bilan o'zgartirmoqchi bo'lsangiz"
+
+#: custom-field-template/custom-field-template.php:243
+msgid "Use labels in place of custom keys"
+msgstr "Erkin kalitlar o'rniga yorliqlarni ishlatish"
+
+#: custom-field-template/custom-field-template.php:246
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "matn maydonchalariga \"p\" va \"br\" teglarini avtomatik tarzda kiritishni hohlasangiz"
+
+#: custom-field-template/custom-field-template.php:247
+msgid "Use wpautop function"
+msgstr "wpautop amalini ishlatish"
+
+#: custom-field-template/custom-field-template.php:251
+#: custom-field-template/custom-field-template.php:270
+#: custom-field-template/custom-field-template.php:298
+msgid "Update Options &raquo;"
+msgstr "Sozlanmalarni yangilash &raquo;"
+
+#: custom-field-template/custom-field-template.php:260
+#: custom-field-template/custom-field-template.php:279
+#: custom-field-template/custom-field-template.php:307
+#: custom-field-template/custom-field-template.php:372
+#: custom-field-template/custom-field-template.php:388
+msgid "Click to toggle"
+msgstr "Kichraytirish"
+
+#: custom-field-template/custom-field-template.php:261
+msgid "CSS"
+msgstr "CSS"
+
+#: custom-field-template/custom-field-template.php:280
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP kod (tajribaviy optsiya)"
+
+#: custom-field-template/custom-field-template.php:282
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "PHP kodlarni saqlamoqchimisiz? Bu amal tajribaviyligi uchun ini o'z xavfingizga ishlating."
+
+#: custom-field-template/custom-field-template.php:283
+msgid "This option is available only for `radio` and `select` types. You must set $values as an array."
+msgstr "Bu opsiya faqat `radio` va `select` tugmalari uchun. Siz $ko'rsatkichlarni bir qatorda joylashtirishingiz lozim."
+
+#: custom-field-template/custom-field-template.php:308
+msgid "Option List"
+msgstr "Sozlanmalar ro'yxati"
+
+#: custom-field-template/custom-field-template.php:373
+msgid "Reset Options"
+msgstr "Sozlanmalarni birlamchi holiga keltirish"
+
+#: custom-field-template/custom-field-template.php:375
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Sozlanmalarni birlamchi holiga qaytarmoqchimisiz? Siz o'rnatgan sozlanmalar birlamchi holiga qaytariladi."
+
+#: custom-field-template/custom-field-template.php:379
+msgid "Unset Options &raquo;"
+msgstr "Sozlanmalarni birlamchi holiga qaytarish &raquo;"
+
+#: custom-field-template/custom-field-template.php:389
+msgid "Delete Options"
+msgstr "Sozlanmalarni o'chirish"
+
+#: custom-field-template/custom-field-template.php:391
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "SOzlanmalar o'chirilsinmi? Siz o'rnatgan sozlanmalar va andazalar o'chiriladi."
+
+#: custom-field-template/custom-field-template.php:395
+msgid "Delete Options &raquo;"
+msgstr "Sozlanmalarni o'chirish &raquo;"
+
+#: custom-field-template/custom-field-template.php:533
+msgid "Clear"
+msgstr "O'chirish"
+
+#: custom-field-template/custom-field-template.php:634
+msgid "Add Media"
+msgstr "Media-fayl qo'shish"
+
+#: custom-field-template/custom-field-template.php:636
+msgid "Add an Image"
+msgstr "Tasvir qo'shish"
+
+#: custom-field-template/custom-field-template.php:638
+msgid "Add Video"
+msgstr "Video qo'shish"
+
+#: custom-field-template/custom-field-template.php:640
+msgid "Add Audio"
+msgstr "Audio-fayl qo'shish"
+
+#: custom-field-template/custom-field-template.php:651
+msgid "Toggle"
+msgstr "Qayta ulagich"
+
+#~ msgid "Admin CSS"
+#~ msgstr "CSS шаблона в админ. панели"
+

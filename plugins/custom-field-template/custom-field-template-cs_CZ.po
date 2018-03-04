@@ -1,0 +1,509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-05 23:15+0900\n"
+"PO-Revision-Date: 2011-02-08 09:32+0100\n"
+"Last-Translator: Jakub Machala <jakubmachala@webees.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:144
+#: custom-field-template/custom-field-template.php:145
+#: custom-field-template/custom-field-template.php:165
+#: custom-field-template/custom-field-template.php:607
+#: custom-field-template/custom-field-template.php:877
+#: custom-field-template/custom-field-template.php:2165
+#: custom-field-template/custom-field-template.php:2301
+msgid "Custom Field Template"
+msgstr "Vlastní uživatelská pole"
+
+#: custom-field-template/custom-field-template.php:183
+msgid "Media Picker"
+msgstr "Výběr médií"
+
+#: custom-field-template/custom-field-template.php:185
+msgid "Use this"
+msgstr "Použít toto"
+
+#: custom-field-template/custom-field-template.php:287
+#: custom-field-template/custom-field-template.php:2504
+msgid "Load"
+msgstr "Nahrát"
+
+#: custom-field-template/custom-field-template.php:443
+msgid "read more"
+msgstr "číst více"
+
+#: custom-field-template/custom-field-template.php:461
+#: custom-field-template/custom-field-template.php:471
+msgid "Custom Fields"
+msgstr "Uživatelská pole"
+
+#: custom-field-template/custom-field-template.php:502
+msgid "Settings"
+msgstr "Nastavení"
+
+#: custom-field-template/custom-field-template.php:527
+msgid "Default Template"
+msgstr "Výchozí šablona"
+
+#: custom-field-template/custom-field-template.php:738
+msgid "You can not use the following words as the field key: `content`, `post_title`, and `excerpt`."
+msgstr "Tato slova nelze použít jako klíč pole: `content`, `post_title`, and `excerpt`."
+
+#: custom-field-template/custom-field-template.php:753
+#: custom-field-template/custom-field-template.php:773
+#: custom-field-template/custom-field-template.php:777
+#: custom-field-template/custom-field-template.php:789
+#: custom-field-template/custom-field-template.php:797
+#: custom-field-template/custom-field-template.php:814
+msgid "Options updated."
+msgstr "Nastavení aktualizováno."
+
+#: custom-field-template/custom-field-template.php:818
+msgid "Value Counts rebuilt."
+msgstr "Počítadla hodnot byla přepsána."
+
+#: custom-field-template/custom-field-template.php:821
+msgid "Tags rebuilt."
+msgstr "Tagy byly přepsány."
+
+#: custom-field-template/custom-field-template.php:830
+msgid "Options imported."
+msgstr "Nastavení bylo importováno."
+
+#: custom-field-template/custom-field-template.php:837
+msgid "Options resetted."
+msgstr "Nastavení bylo obnoveno."
+
+#: custom-field-template/custom-field-template.php:841
+msgid "Options deleted."
+msgstr "Nastavení bylo smazáno."
+
+#: custom-field-template/custom-field-template.php:883
+#: custom-field-template/custom-field-template.php:929
+#: custom-field-template/custom-field-template.php:1030
+#: custom-field-template/custom-field-template.php:1049
+#: custom-field-template/custom-field-template.php:1078
+#: custom-field-template/custom-field-template.php:1109
+#: custom-field-template/custom-field-template.php:1150
+#: custom-field-template/custom-field-template.php:1171
+#: custom-field-template/custom-field-template.php:1188
+#: custom-field-template/custom-field-template.php:1353
+#: custom-field-template/custom-field-template.php:1369
+#: custom-field-template/custom-field-template.php:1385
+#: custom-field-template/custom-field-template.php:1401
+#: custom-field-template/custom-field-template.php:1417
+msgid "Click to toggle"
+msgstr "Klikněte pro rozbalení"
+
+#: custom-field-template/custom-field-template.php:884
+msgid "Custom Field Template Options"
+msgstr "Vlastní uživatelská pole Nastavení"
+
+#: custom-field-template/custom-field-template.php:894
+#: custom-field-template/custom-field-template.php:2350
+#: custom-field-template/custom-field-template.php:2351
+msgid "Disable"
+msgstr "Deaktivovat"
+
+#: custom-field-template/custom-field-template.php:896
+msgid "Template Title"
+msgstr "Název šablony"
+
+#: custom-field-template/custom-field-template.php:898
+msgid "Template Instruction"
+msgstr "Popis šablony"
+
+#: custom-field-template/custom-field-template.php:900
+#: custom-field-template/custom-field-template.php:1125
+msgid "Post Type"
+msgstr "Typ obsahu"
+
+#: custom-field-template/custom-field-template.php:902
+#: custom-field-template/custom-field-template.php:1126
+msgid "Both"
+msgstr "Obojí"
+
+#: custom-field-template/custom-field-template.php:903
+#: custom-field-template/custom-field-template.php:1127
+msgid "Post"
+msgstr "Příspěvek"
+
+#: custom-field-template/custom-field-template.php:904
+#: custom-field-template/custom-field-template.php:1128
+msgid "Page"
+msgstr "Stránka"
+
+#: custom-field-template/custom-field-template.php:905
+#: custom-field-template/custom-field-template.php:1129
+msgid "Custom Post Type (comma-deliminated)"
+msgstr "Vlastní typ obsahu (odděleno čárkami)"
+
+#: custom-field-template/custom-field-template.php:907
+msgid "Post ID (comma-deliminated)"
+msgstr "ID příspěvku (odděleno čárkami)"
+
+#: custom-field-template/custom-field-template.php:909
+#: custom-field-template/custom-field-template.php:1131
+msgid "Category ID (comma-deliminated)"
+msgstr "ID rubriky (odděleno čárkami)"
+
+#: custom-field-template/custom-field-template.php:911
+msgid "Page Template file name(s) (comma-deliminated)"
+msgstr "Názvy souborů šablon stránek (odděleno čárkami)"
+
+#: custom-field-template/custom-field-template.php:913
+msgid "Template Content"
+msgstr "Obsah šablony"
+
+#: custom-field-template/custom-field-template.php:920
+#: custom-field-template/custom-field-template.php:1021
+#: custom-field-template/custom-field-template.php:1040
+#: custom-field-template/custom-field-template.php:1069
+#: custom-field-template/custom-field-template.php:1100
+#: custom-field-template/custom-field-template.php:1141
+msgid "Update Options &raquo;"
+msgstr "Aktualizovat nastavení &raquo;"
+
+#: custom-field-template/custom-field-template.php:930
+msgid "Global Settings"
+msgstr "Globální nastavení"
+
+#: custom-field-template/custom-field-template.php:945
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "V případě, že chcete zobrazovat místo klíčů polí jejich názvy (jsou-li nastaveny)"
+
+#: custom-field-template/custom-field-template.php:946
+msgid "Use labels in place of custom keys"
+msgstr "Použít názvy místo klíčů polí"
+
+#: custom-field-template/custom-field-template.php:949
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "V případě, že chcete automaticky přidat tagy p a br do polí textarea"
+
+#: custom-field-template/custom-field-template.php:950
+msgid "Use wpautop function"
+msgstr "Použít wpautop funkci"
+
+#: custom-field-template/custom-field-template.php:954
+msgid "In case that you would like to save values automatically in switching templates"
+msgstr "V případě, že chce automaticky ukládat hodnoty v přepínaných šablonách"
+
+#: custom-field-template/custom-field-template.php:955
+msgid "Use the auto save in switching templates"
+msgstr "Automaticky uložit při přepínaní šablon"
+
+#: custom-field-template/custom-field-template.php:959
+msgid "In case that you would like to disable input fields of the custom field template temporarily"
+msgstr "V případě, že chcete dočasně deaktivovat všechna pole vlastních šablon"
+
+#: custom-field-template/custom-field-template.php:960
+msgid "Use the `Disable` button. The default custom fields will be superseded."
+msgstr "Použít tlačítko `Deaktivovat`. Výchozí uživatelská pole budou vyřazena."
+
+#: custom-field-template/custom-field-template.php:964
+msgid "In case that you would like to forbid to use the initialize button."
+msgstr "V případě, že chcete zakázat užití inicializačního tlačítka."
+
+#: custom-field-template/custom-field-template.php:965
+msgid "Disable the initialize button"
+msgstr "Deaktivovat inicializační tlačítko"
+
+#: custom-field-template/custom-field-template.php:969
+msgid "In case that you would like to forbid to use the save button."
+msgstr "V případě, že chcete zakázat užití tlačítka pro uložení."
+
+#: custom-field-template/custom-field-template.php:970
+msgid "Disable the save button"
+msgstr "Deaktivovat tlačítko pro uložení"
+
+#: custom-field-template/custom-field-template.php:974
+msgid "In case that you would like to forbid to use the default custom fields."
+msgstr "V případě, že chcete zakázat užití výchozích uživatelských polí."
+
+#: custom-field-template/custom-field-template.php:975
+msgid "Disable the default custom fields"
+msgstr "Deaktivovat  výchozí uživatelská pole"
+
+#: custom-field-template/custom-field-template.php:979
+msgid "In case that you would like to forbid to use the quick edit."
+msgstr "V případě, že chcete zakázat užití rychlé editace."
+
+#: custom-field-template/custom-field-template.php:980
+msgid "Disable the quick edit"
+msgstr "Deaktivovat rychlou editaci"
+
+#: custom-field-template/custom-field-template.php:984
+msgid "In case that you would like to forbid to display the custom field column on the edit post list page."
+msgstr "V případě, že chcete zakázat zobrazování sloupce uživatelských polí na editační stránce."
+
+#: custom-field-template/custom-field-template.php:985
+msgid "Disable the custom field column (The quick edit also does not work.)"
+msgstr "Deaktivovat sloupec uživatelských polí (přestane fungovat také rychlá úprava)"
+
+#: custom-field-template/custom-field-template.php:989
+msgid "In case that you would like to replace the box title with the template title."
+msgstr "V případě, že chcete nahradit název boxu názvem šablony."
+
+#: custom-field-template/custom-field-template.php:990
+msgid "Replace the box title"
+msgstr "Nahradit název boxu"
+
+#: custom-field-template/custom-field-template.php:994
+msgid "In case that you would like to use the shortcode in the widget."
+msgstr "V případě, že chcete ve widgetu použít shortcode."
+
+#: custom-field-template/custom-field-template.php:995
+msgid "Use the shortcode in the widget"
+msgstr "Použít ve widgetu shortcode"
+
+#: custom-field-template/custom-field-template.php:999
+msgid "In case that you would like to use the shortcode in the excerpt."
+msgstr "V případě, že chce použít shortcode v úryvku (excerpt)."
+
+#: custom-field-template/custom-field-template.php:1000
+msgid "Use the shortcode in the excerpt"
+msgstr "Použít shortcode v úryvku"
+
+#: custom-field-template/custom-field-template.php:1010
+msgid "Text to place before every list which is called by the cft shortcode"
+msgstr "Text vkládaný před každý seznam volaný ctf shortcodem"
+
+#: custom-field-template/custom-field-template.php:1012
+msgid "Text to place after every list which is called by the cft shortcode"
+msgstr "Text vkládaný za každý seznam volaný ctf shortcodem"
+
+#: custom-field-template/custom-field-template.php:1014
+msgid "Text to place before every value which is called by the cft shortcode"
+msgstr "Text vkládaný před každou hodnotu volaný ctf shortcodem"
+
+#: custom-field-template/custom-field-template.php:1016
+msgid "Text to place after every value which is called by the cft shortcode"
+msgstr "Text vkládaný za každou hodnotu volaný ctf shortcodem"
+
+#: custom-field-template/custom-field-template.php:1031
+msgid "ADMIN CSS"
+msgstr "Spravovat CSS"
+
+#: custom-field-template/custom-field-template.php:1050
+msgid "[cft] and [cftsearch] Shortcode Format"
+msgstr "[cft] a [cftsearch] formát shortcodů"
+
+#: custom-field-template/custom-field-template.php:1053
+msgid "For [cft], [key] will be converted into the value of [key]."
+msgstr "Pro [cft], [key] budou konvertovány do hodnot [key]."
+
+#: custom-field-template/custom-field-template.php:1054
+msgid "For [cftsearch], [key] will be converted into the input field."
+msgstr "Pro  [cftsearch], [key] bude konvertováno v vkládací pole."
+
+#: custom-field-template/custom-field-template.php:1063
+#: custom-field-template/custom-field-template.php:1134
+msgid "Use PHP"
+msgstr "Použít PHP"
+
+#: custom-field-template/custom-field-template.php:1079
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP kód (experimentální funkce)"
+
+#: custom-field-template/custom-field-template.php:1081
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "Určitě chcete uložit PHP kódy? Používejte prosím s opatrností."
+
+#: custom-field-template/custom-field-template.php:1082
+msgid "For `text` and `textarea`, you must set $value as an string."
+msgstr "Pro `text` a `textarea`, musíte nastavit $value jako řetězec."
+
+#: custom-field-template/custom-field-template.php:1084
+msgid "For `checkbox`, `radio`, and `select`, you must set $values as an array."
+msgstr "Pro  `checkbox`, `radio`, a `select`, musíte nastavit $values jako pole."
+
+#: custom-field-template/custom-field-template.php:1110
+msgid "Auto Hook of `the_content()` (Experimental Option)"
+msgstr "Automaticky vložit `the_content()` (experimentální funkce)"
+
+#: custom-field-template/custom-field-template.php:1120
+msgid "Position"
+msgstr "Pozice"
+
+#: custom-field-template/custom-field-template.php:1121
+msgid "Before the content"
+msgstr "Před obsahem"
+
+#: custom-field-template/custom-field-template.php:1122
+msgid "After the content"
+msgstr "Za obsahem"
+
+#: custom-field-template/custom-field-template.php:1123
+#, php-format
+msgid "Inside the content ([cfthook hook=%d])"
+msgstr "Uvnitř obsahu ([cfthook hook=%d])"
+
+#: custom-field-template/custom-field-template.php:1133
+msgid "Content"
+msgstr "Obsah"
+
+#: custom-field-template/custom-field-template.php:1135
+msgid "Apply to feeds"
+msgstr "Aplikovat na zdroje"
+
+#: custom-field-template/custom-field-template.php:1151
+msgid "Rebuild Value Counts"
+msgstr "Přepsat počítadla hodnot"
+
+#: custom-field-template/custom-field-template.php:1153
+msgid "Are you sure to rebuild all value counts?"
+msgstr "Určitě chcete přepsat počítadla hodnot?"
+
+#: custom-field-template/custom-field-template.php:1157
+msgid "Value Counts are used for temporarily saving how many values in each key. Set `valueCount = true` into fields."
+msgstr "Počítadla hodnot jsou používána pro dočasné uložení počtu hodnot v každém klíči. Nastavte `valueCount = true` do polí."
+
+#: custom-field-template/custom-field-template.php:1161
+msgid "Rebuild Value Counts &raquo;"
+msgstr "Přepsat počítadla hodnot &raquo;"
+
+#: custom-field-template/custom-field-template.php:1172
+msgid "Rebuild Tags"
+msgstr "Přepsat tagy"
+
+#: custom-field-template/custom-field-template.php:1174
+msgid "Are you sure to rebuild tags?"
+msgstr "Určitě chcete přepsat tagy?"
+
+#: custom-field-template/custom-field-template.php:1178
+msgid "Rebuild Tags &raquo;"
+msgstr "Přepsat tagy &raquo;"
+
+#: custom-field-template/custom-field-template.php:1189
+msgid "Option List"
+msgstr "Seznam nastavení"
+
+#: custom-field-template/custom-field-template.php:1354
+msgid "Export Options"
+msgstr "Exportovat nastavení"
+
+#: custom-field-template/custom-field-template.php:1360
+msgid "Export Options &raquo;"
+msgstr "Exportovat nastavení &raquo;"
+
+#: custom-field-template/custom-field-template.php:1370
+msgid "Import Options"
+msgstr "Importovat nastavení"
+
+#: custom-field-template/custom-field-template.php:1372
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr "Určitě chcete importovat nastavení? Současné nastavení bude přepsáno."
+
+#: custom-field-template/custom-field-template.php:1376
+msgid "Import Options &raquo;"
+msgstr "Importovat nastavení &raquo;"
+
+#: custom-field-template/custom-field-template.php:1386
+msgid "Reset Options"
+msgstr "Obnovit nastavení"
+
+#: custom-field-template/custom-field-template.php:1388
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Určitě chcete obnovit nastavení? Současné nastavení bude přepsáno do výchozích hodnot."
+
+#: custom-field-template/custom-field-template.php:1392
+msgid "Reset Options &raquo;"
+msgstr "Obnovit nastavení &raquo;"
+
+#: custom-field-template/custom-field-template.php:1402
+msgid "Delete Options"
+msgstr "Smazat nastavneí"
+
+#: custom-field-template/custom-field-template.php:1404
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "Určitě chcete smazat nastavení? Vaše nastavení bude kompletně smazáno."
+
+#: custom-field-template/custom-field-template.php:1408
+msgid "Delete Options &raquo;"
+msgstr "Smazat nastavení &raquo;"
+
+#: custom-field-template/custom-field-template.php:1418
+msgid "Donation"
+msgstr "Podpořit"
+
+#: custom-field-template/custom-field-template.php:1420
+msgid "If you liked this plugin, please make a donation via paypal! Any amount is welcome. Your support is much appreciated."
+msgstr "Pokud se vám tento plugin líbí, podpořte jej prosím přes PayPal! Každý částka je vítána. Vaše pomoc bude velmi oceněna."
+
+#: custom-field-template/custom-field-template.php:1516
+#: custom-field-template/custom-field-template.php:1637
+#: custom-field-template/custom-field-template.php:1717
+#: custom-field-template/custom-field-template.php:1891
+#: custom-field-template/custom-field-template.php:2090
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: custom-field-template/custom-field-template.php:1647
+msgid "Clear"
+msgstr "Vyčistit"
+
+#: custom-field-template/custom-field-template.php:1733
+msgid "Select"
+msgstr "Vybrat"
+
+#: custom-field-template/custom-field-template.php:1798
+msgid "Add an Image"
+msgstr "Přidat obrázek"
+
+#: custom-field-template/custom-field-template.php:1803
+msgid "Add Video"
+msgstr "Přidat video"
+
+#: custom-field-template/custom-field-template.php:1808
+msgid "Add Audio"
+msgstr "Přidat audio"
+
+#: custom-field-template/custom-field-template.php:1812
+msgid "Add Media"
+msgstr "Přidat média"
+
+#: custom-field-template/custom-field-template.php:1819
+msgid "Toggle"
+msgstr "Přepnout"
+
+#: custom-field-template/custom-field-template.php:1901
+msgid " OR "
+msgstr " NEBO "
+
+#: custom-field-template/custom-field-template.php:1902
+msgid "Select by Media Picker"
+msgstr "Vybrat výběrem médií"
+
+#: custom-field-template/custom-field-template.php:1925
+#: custom-field-template/custom-field-template.php:2092
+msgid "Delete"
+msgstr "Smazat"
+
+#: custom-field-template/custom-field-template.php:2351
+msgid "Enable"
+msgstr "Aktivovat"
+
+#: custom-field-template/custom-field-template.php:2355
+msgid "Initialize"
+msgstr "Inicializovat"
+
+#: custom-field-template/custom-field-template.php:2356
+msgid "Are you sure to reset current values? Default values will be loaded."
+msgstr "Opravdu chcete přepsat aktuální hodnoty? Budou načteny výchozí hodnoty."
+
+#: custom-field-template/custom-field-template.php:2361
+msgid "Save"
+msgstr "Uložit"
+
+#: custom-field-template/custom-field-template.php:3014
+msgid "Search &raquo;"
+msgstr "Hledat &raquo;"
+

@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-17 10:54+0100\n"
+"PO-Revision-Date: 2009-11-17 15:35+0100\n"
+"Last-Translator: Balázs Kovács <kobalazs@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:125
+#: custom-field-template/custom-field-template.php:126
+#: custom-field-template/custom-field-template.php:543
+#: custom-field-template/custom-field-template.php:747
+#: custom-field-template/custom-field-template.php:1896
+#: custom-field-template/custom-field-template.php:2024
+msgid "Custom Field Template"
+msgstr "Egyedi mezők"
+
+#: custom-field-template/custom-field-template.php:236
+#: custom-field-template/custom-field-template.php:2197
+msgid "Load"
+msgstr "Megnyit"
+
+#: custom-field-template/custom-field-template.php:392
+msgid "read more"
+msgstr "további információ"
+
+#: custom-field-template/custom-field-template.php:410
+#: custom-field-template/custom-field-template.php:420
+msgid "Custom Fields"
+msgstr "Egyedi mezők"
+
+#: custom-field-template/custom-field-template.php:450
+msgid "Settings"
+msgstr "Beállítások"
+
+#: custom-field-template/custom-field-template.php:470
+msgid "Default Template"
+msgstr "Alapértelmezett sablon"
+
+#: custom-field-template/custom-field-template.php:672
+#: custom-field-template/custom-field-template.php:676
+#: custom-field-template/custom-field-template.php:688
+#: custom-field-template/custom-field-template.php:696
+#: custom-field-template/custom-field-template.php:712
+msgid "Options updated."
+msgstr "Beállítások frissítve."
+
+#: custom-field-template/custom-field-template.php:716
+msgid "Value Counts rebuilt."
+msgstr "Mezőösszegzés frissítce"
+
+#: custom-field-template/custom-field-template.php:719
+msgid "Tags rebuilt."
+msgstr "Címkék frissítve."
+
+#: custom-field-template/custom-field-template.php:728
+msgid "Options imported."
+msgstr "Beállítások frissítve."
+
+#: custom-field-template/custom-field-template.php:735
+msgid "Options resetted."
+msgstr "Beállítások visszaállítva."
+
+#: custom-field-template/custom-field-template.php:739
+msgid "Options deleted."
+msgstr "Beállítások törölve."
+
+#: custom-field-template/custom-field-template.php:753
+#: custom-field-template/custom-field-template.php:844
+#: custom-field-template/custom-field-template.php:863
+#: custom-field-template/custom-field-template.php:892
+#: custom-field-template/custom-field-template.php:923
+#: custom-field-template/custom-field-template.php:962
+#: custom-field-template/custom-field-template.php:983
+#: custom-field-template/custom-field-template.php:1000
+#: custom-field-template/custom-field-template.php:1162
+#: custom-field-template/custom-field-template.php:1178
+#: custom-field-template/custom-field-template.php:1194
+#: custom-field-template/custom-field-template.php:1210
+#: custom-field-template/custom-field-template.php:1226
+msgid "Click to toggle"
+msgstr "Kattints a váltáshoz"
+
+#: custom-field-template/custom-field-template.php:754
+msgid "Custom Field Template Options"
+msgstr "Egyedi mezők beállításai"
+
+#: custom-field-template/custom-field-template.php:764
+msgid "Template Title"
+msgstr "Sablon cím"
+
+#: custom-field-template/custom-field-template.php:766
+msgid "Template Instruction"
+msgstr "Sablon útmutató"
+
+#: custom-field-template/custom-field-template.php:768
+#: custom-field-template/custom-field-template.php:939
+msgid "Post Type"
+msgstr "Lap típusa"
+
+#: custom-field-template/custom-field-template.php:770
+#: custom-field-template/custom-field-template.php:940
+msgid "Both"
+msgstr "Mindkettő"
+
+#: custom-field-template/custom-field-template.php:771
+#: custom-field-template/custom-field-template.php:941
+msgid "Post"
+msgstr "Bejegyzés"
+
+#: custom-field-template/custom-field-template.php:772
+#: custom-field-template/custom-field-template.php:942
+msgid "Page"
+msgstr "Oldal"
+
+#: custom-field-template/custom-field-template.php:773
+msgid "Post ID (comma-deliminated)"
+msgstr "Oldal szűrés (ID-k vesszővel elválasztva)"
+
+#: custom-field-template/custom-field-template.php:775
+#: custom-field-template/custom-field-template.php:943
+msgid "Category ID (comma-deliminated)"
+msgstr "Kategória szűrés (ID-k vesszővel elválasztva)"
+
+#: custom-field-template/custom-field-template.php:777
+msgid "Page Template file name(s) (comma-deliminated)"
+msgstr "Sablon szűrés (fájlnevek vesszővel elválasztva)"
+
+#: custom-field-template/custom-field-template.php:779
+msgid "Template Content"
+msgstr "Sablon tartalom"
+
+#: custom-field-template/custom-field-template.php:786
+msgid "In case that you would like to insert multiple images at once in use of the custom field media buttons"
+msgstr "Ha több képet szeretnél egyszerre beilleszteni az egyedi mezőkbe a média gombok használatával."
+
+# Deutsche Übersetzung: Franz Josef Kaiser.
+#: custom-field-template/custom-field-template.php:787
+msgid "Use multiple image inset"
+msgstr "Több kép beillesztése egyszerre"
+
+#: custom-field-template/custom-field-template.php:787
+msgid "Caution:"
+msgstr "Figyelmeztetés: "
+
+#: custom-field-template/custom-field-template.php:787
+msgid "You need to edit `wp-admin/includes/media.php`. Delete or comment out the code in the function media_send_to_editor."
+msgstr "Szerkesztened kell a `wp-admin/includes/media.php` fájlt. Töröld vagy kommenteld ki a kódból a media_send_to_editor függvényt!"
+
+#: custom-field-template/custom-field-template.php:791
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "Ha le szeretnéd cserélni az egyedi kulcsokat a beállított címkére."
+
+#: custom-field-template/custom-field-template.php:792
+msgid "Use labels in place of custom keys"
+msgstr "Címkék használata a mezőnevek helyett."
+
+#: custom-field-template/custom-field-template.php:795
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "Ha automatikusan hozzá akarsz adni P és BR tageket a szöveges mezőkhöz."
+
+#: custom-field-template/custom-field-template.php:796
+msgid "Use wpautop function"
+msgstr "A wpautop funkció használata"
+
+#: custom-field-template/custom-field-template.php:800
+msgid "In case that you would like to save values automatically in switching templates"
+msgstr "Ha automatikusan menteni szeretnéd az új értékeket sablon váltásakor."
+
+#: custom-field-template/custom-field-template.php:801
+msgid "Use the auto save in switching templates"
+msgstr "Sablonváltáskor automata mentés"
+
+#: custom-field-template/custom-field-template.php:805
+msgid "In case that you would like to forbid to use the default custom fields."
+msgstr "Ha le szeretnéd tiltani a WordPress saját mezők funkcióját."
+
+#: custom-field-template/custom-field-template.php:806
+msgid "Disable the default custom fields"
+msgstr "WordPress saját mezők letiltása"
+
+#: custom-field-template/custom-field-template.php:810
+msgid "In case that you would like to forbid to use the quick edit."
+msgstr "Ha le szeretnéd tiltani az oldalak gyorsszerkesztését."
+
+#: custom-field-template/custom-field-template.php:811
+msgid "Disable the quick edit"
+msgstr "Gyorsszerkesztés letiltása"
+
+#: custom-field-template/custom-field-template.php:815
+msgid "In case that you would like to forbid to display the custom field column on the edit post list page."
+msgstr "Ha le szeretnéd tiltani a \"Saját mezők\" doboz megjelenését a szerkesztés oldalon."
+
+#: custom-field-template/custom-field-template.php:816
+msgid "Disable the custom field column (The quick edit also does not work.)"
+msgstr "A WordPress \"Saját mezők\" ablakának letiltása (gyorsszerkesztésnél is)"
+
+#: custom-field-template/custom-field-template.php:820
+msgid "In case that you would like to replace the box title with the template title."
+msgstr "Ha le szeretnéd cserélni a doboz címét (\"Egyedi mezők\") a sablon címére."
+
+#: custom-field-template/custom-field-template.php:821
+msgid "Replace the box title"
+msgstr "Az \"Egyedi mezők\" ablak címének lecserélése"
+
+#: custom-field-template/custom-field-template.php:825
+msgid "In case that you would like to use the shortcode in the widget."
+msgstr "Ha gyorskódokat szeretnél használni a  widgetben."
+
+#: custom-field-template/custom-field-template.php:826
+msgid "Use the shortcode in the widget"
+msgstr "Gyorskódok használata a widgetben"
+
+#: custom-field-template/custom-field-template.php:830
+msgid "In case that you would like to use the shortcode in the excerpt."
+msgstr "Ha gyorskódokat szeretnél használni a bevezetőkben."
+
+#: custom-field-template/custom-field-template.php:831
+msgid "Use the shortcode in the excerpt"
+msgstr "Gyorskódok használata az ismertetőben"
+
+#: custom-field-template/custom-field-template.php:835
+#: custom-field-template/custom-field-template.php:854
+#: custom-field-template/custom-field-template.php:883
+#: custom-field-template/custom-field-template.php:914
+#: custom-field-template/custom-field-template.php:953
+msgid "Update Options &raquo;"
+msgstr "Beállítások mentése &raquo;"
+
+#: custom-field-template/custom-field-template.php:845
+msgid "ADMIN CSS"
+msgstr "ADMIN CSS"
+
+#: custom-field-template/custom-field-template.php:864
+msgid "[cft] and [cftsearch] Shortcode Format"
+msgstr "[cft] és [cftsearch] gyorskód formátum"
+
+#: custom-field-template/custom-field-template.php:867
+msgid "For [cft], [key] will be converted into the value of [key]."
+msgstr "Az első mezőben (cft) a [kulcs] formájú szöveg át lesz alakítva a kulcs értékévé."
+
+#: custom-field-template/custom-field-template.php:868
+msgid "For [cftsearch], [key] will be converted into the input field."
+msgstr "Az első mezőben (cftsearch) a [kulcs] formájú szöveg át lesz alakítva egy beviteli mezővé."
+
+#: custom-field-template/custom-field-template.php:877
+#: custom-field-template/custom-field-template.php:946
+msgid "Use PHP"
+msgstr "PHP használata"
+
+#: custom-field-template/custom-field-template.php:893
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP KÓD (kísérleti funkció)"
+
+#: custom-field-template/custom-field-template.php:895
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "Biztos megváltoztatod a PHP kódot? Csak saját felelősségre!"
+
+#: custom-field-template/custom-field-template.php:896
+msgid "For `text` and `textarea`, you must set $value as an string."
+msgstr "A `text` és `textarea` típusú mezők értéke csak string típusú lehet."
+
+#: custom-field-template/custom-field-template.php:898
+msgid "For `checkbox`, `radio`, and `select`, you must set $values as an array."
+msgstr "Rádiógombokhoz és a választómezőkhöz (`checkbox`, `radio`, és `select`) a $values értéke tömb kell, hogy legyen."
+
+#: custom-field-template/custom-field-template.php:924
+msgid "Auto Hook of `the_content()` (Experimental Option)"
+msgstr "Automatikusan a `the_content()` funkcióra kötés (kísérleti funkció)"
+
+#: custom-field-template/custom-field-template.php:934
+msgid "Position"
+msgstr "Elhelyezés"
+
+#: custom-field-template/custom-field-template.php:935
+msgid "Before the conetnt"
+msgstr "A tartalom előtt"
+
+#: custom-field-template/custom-field-template.php:936
+msgid "After the conetnt"
+msgstr "A tartalom után"
+
+#: custom-field-template/custom-field-template.php:937
+#, php-format
+msgid "Inside the conetnt ([cfthook hook=%d])"
+msgstr "A tartalomban ([cfthook hook=%d])"
+
+#: custom-field-template/custom-field-template.php:945
+msgid "Content"
+msgstr "Tartalom"
+
+#: custom-field-template/custom-field-template.php:947
+msgid "Apply to feeds"
+msgstr "Hírcsatornára alkalmaz"
+
+#: custom-field-template/custom-field-template.php:963
+msgid "Rebuild Value Counts"
+msgstr "Mezőösszegzés frissítése"
+
+#: custom-field-template/custom-field-template.php:965
+msgid "Are you sure to rebuild all value counts?"
+msgstr "Biztos frissíted az összes mezőösszegzést?"
+
+#: custom-field-template/custom-field-template.php:969
+msgid "Value Counts are used for temporarily saving how many values in each key. Set `valueCount = true` into fields."
+msgstr "A mezőösszegzés tárolja ideiglenesen a választható mezők lehetséges értékeinek számát. Állítsd be a mezőkön a `valueCount = true` értéket!"
+
+#: custom-field-template/custom-field-template.php:973
+msgid "Rebuild Value Counts &raquo;"
+msgstr "Mezőösszegzés frissítése &raquo;"
+
+#: custom-field-template/custom-field-template.php:984
+msgid "Rebuild Tags"
+msgstr "Címkék frissítése"
+
+#: custom-field-template/custom-field-template.php:986
+msgid "Are you sure to rebuild tags?"
+msgstr "Biztos hogy frissíted a címkéket?"
+
+#: custom-field-template/custom-field-template.php:990
+msgid "Rebuild Tags &raquo;"
+msgstr "Címkék frissítése &raquo;"
+
+#: custom-field-template/custom-field-template.php:1001
+msgid "Option List"
+msgstr "Opciók listája"
+
+#: custom-field-template/custom-field-template.php:1163
+msgid "Export Options"
+msgstr "Beállítások exportálása"
+
+#: custom-field-template/custom-field-template.php:1169
+msgid "Export Options &raquo;"
+msgstr "Beállítások exportálása &raquo;"
+
+#: custom-field-template/custom-field-template.php:1179
+msgid "Import Options"
+msgstr "Beállítások importálása"
+
+#: custom-field-template/custom-field-template.php:1181
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr "Biztosan importálod a beállításokat? Minden általad készített beállítás elveszik."
+
+#: custom-field-template/custom-field-template.php:1185
+msgid "Import Options &raquo;"
+msgstr "Beállítások importálása &raquo;"
+
+#: custom-field-template/custom-field-template.php:1195
+msgid "Reset Options"
+msgstr "Beállítások visszaállítása"
+
+#: custom-field-template/custom-field-template.php:1197
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Biztos visszaállítod az összes beállítást? Minden vissza lesz állítva az eredeti értékre."
+
+#: custom-field-template/custom-field-template.php:1201
+msgid "Reset Options &raquo;"
+msgstr "Beállítások visszaállítása &raquo;"
+
+#: custom-field-template/custom-field-template.php:1211
+msgid "Delete Options"
+msgstr "Beállítások törlése"
+
+#: custom-field-template/custom-field-template.php:1213
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "Biztosan törlöd a beállításokat? Minden általad készített beállítás elveszik."
+
+#: custom-field-template/custom-field-template.php:1217
+msgid "Delete Options &raquo;"
+msgstr "Beállítások törlése &raquo;"
+
+#: custom-field-template/custom-field-template.php:1227
+msgid "Donation"
+msgstr "Donation"
+
+#: custom-field-template/custom-field-template.php:1229
+msgid "If you liked this plugin, please make a donation via paypal! Any amount is welcome. Your support is much appreciated."
+msgstr "If you liked this plugin, please make a donation via paypal! Any amount is welcome. Your support is much appreciated."
+
+#: custom-field-template/custom-field-template.php:1326
+#: custom-field-template/custom-field-template.php:1447
+#: custom-field-template/custom-field-template.php:1527
+#: custom-field-template/custom-field-template.php:1701
+#: custom-field-template/custom-field-template.php:1821
+msgid "Add New"
+msgstr " Média hozzáadása"
+
+#: custom-field-template/custom-field-template.php:1457
+msgid "Clear"
+msgstr "Törlés"
+
+#: custom-field-template/custom-field-template.php:1543
+msgid "Select"
+msgstr "Kiválaszt"
+
+#: custom-field-template/custom-field-template.php:1608
+msgid "Add an Image"
+msgstr "Kép hozzáadása"
+
+#: custom-field-template/custom-field-template.php:1613
+msgid "Add Video"
+msgstr "Videó hozzáadása"
+
+#: custom-field-template/custom-field-template.php:1618
+msgid "Add Audio"
+msgstr "Hang hozzáadása"
+
+#: custom-field-template/custom-field-template.php:1622
+msgid "Add Media"
+msgstr "Média hozzáadása"
+
+#: custom-field-template/custom-field-template.php:1629
+msgid "Toggle"
+msgstr "Nézet"
+
+#: custom-field-template/custom-field-template.php:1721
+#: custom-field-template/custom-field-template.php:1823
+msgid "Delete"
+msgstr "Kép törlése"
+
+#: custom-field-template/custom-field-template.php:2071
+msgid "Initialize"
+msgstr "Visszaállít"
+
+#: custom-field-template/custom-field-template.php:2072
+msgid "Are you sure to reset current values? Default values will be loaded."
+msgstr "Biztosan törlöd a beállításokat? Minden általad készített beállítás elveszik."
+
+#: custom-field-template/custom-field-template.php:2075
+msgid "Save"
+msgstr "Mentés"
+
+#: custom-field-template/custom-field-template.php:2691
+msgid "Search &raquo;"
+msgstr "Keresés &raquo;"
+
+#~ msgid "CSS"
+#~ msgstr "CSS (stíluslap)"
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近の投稿 Ext"
+#~ msgid "camera"
+#~ msgstr "機種"
+#~ msgid "aperture"
+#~ msgstr "絞り値"
+#~ msgid "focal_length"
+#~ msgstr "焦点距離"
+#~ msgid "ISO"
+#~ msgstr "ISO"
+#~ msgid "shutter_speed"
+#~ msgstr "シャッタースピード"
+#~ msgid "created_timestamp"
+#~ msgstr "撮影日時"
+

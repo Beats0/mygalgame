@@ -1,0 +1,499 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-09 21:06+0900\n"
+"PO-Revision-Date: 2010-03-29 16:51+0800\n"
+"Last-Translator: hurri <3zai.org.cn@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:142
+#: custom-field-template/custom-field-template.php:143
+#: custom-field-template/custom-field-template.php:159
+#: custom-field-template/custom-field-template.php:580
+#: custom-field-template/custom-field-template.php:790
+#: custom-field-template/custom-field-template.php:1966
+#: custom-field-template/custom-field-template.php:2094
+msgid "Custom Field Template"
+msgstr "自定义字段模板"
+
+#: custom-field-template/custom-field-template.php:268
+#: custom-field-template/custom-field-template.php:2280
+msgid "Load"
+msgstr "载入"
+
+#: custom-field-template/custom-field-template.php:424
+msgid "read more"
+msgstr "阅读更多"
+
+#: custom-field-template/custom-field-template.php:442
+#: custom-field-template/custom-field-template.php:452
+msgid "Custom Fields"
+msgstr "用户自定义"
+
+#: custom-field-template/custom-field-template.php:482
+msgid "Settings"
+msgstr "设置"
+
+#: custom-field-template/custom-field-template.php:502
+msgid "Default Template"
+msgstr "默认模板"
+
+#: custom-field-template/custom-field-template.php:714
+#: custom-field-template/custom-field-template.php:718
+#: custom-field-template/custom-field-template.php:730
+#: custom-field-template/custom-field-template.php:738
+#: custom-field-template/custom-field-template.php:755
+msgid "Options updated."
+msgstr "设置更新"
+
+#: custom-field-template/custom-field-template.php:759
+msgid "Value Counts rebuilt."
+msgstr "重置计数器"
+
+#: custom-field-template/custom-field-template.php:762
+msgid "Tags rebuilt."
+msgstr "重建标签"
+
+#: custom-field-template/custom-field-template.php:771
+msgid "Options imported."
+msgstr "导入设置"
+
+#: custom-field-template/custom-field-template.php:778
+msgid "Options resetted."
+msgstr "设置已重置"
+
+#: custom-field-template/custom-field-template.php:782
+msgid "Options deleted."
+msgstr "删除设置"
+
+#: custom-field-template/custom-field-template.php:796
+#: custom-field-template/custom-field-template.php:903
+#: custom-field-template/custom-field-template.php:922
+#: custom-field-template/custom-field-template.php:951
+#: custom-field-template/custom-field-template.php:982
+#: custom-field-template/custom-field-template.php:1023
+#: custom-field-template/custom-field-template.php:1044
+#: custom-field-template/custom-field-template.php:1061
+#: custom-field-template/custom-field-template.php:1223
+#: custom-field-template/custom-field-template.php:1239
+#: custom-field-template/custom-field-template.php:1255
+#: custom-field-template/custom-field-template.php:1271
+#: custom-field-template/custom-field-template.php:1287
+msgid "Click to toggle"
+msgstr "切换"
+
+#: custom-field-template/custom-field-template.php:797
+msgid "Custom Field Template Options"
+msgstr "用户自定义模板选项"
+
+#: custom-field-template/custom-field-template.php:807
+msgid "Disable"
+msgstr "取消"
+
+#: custom-field-template/custom-field-template.php:809
+msgid "Template Title"
+msgstr "模板标题"
+
+#: custom-field-template/custom-field-template.php:811
+msgid "Template Instruction"
+msgstr "模板描述"
+
+#: custom-field-template/custom-field-template.php:813
+#: custom-field-template/custom-field-template.php:998
+msgid "Post Type"
+msgstr "发布类别"
+
+#: custom-field-template/custom-field-template.php:815
+#: custom-field-template/custom-field-template.php:999
+msgid "Both"
+msgstr "全部"
+
+#: custom-field-template/custom-field-template.php:816
+#: custom-field-template/custom-field-template.php:1000
+msgid "Post"
+msgstr "投稿"
+
+#: custom-field-template/custom-field-template.php:817
+#: custom-field-template/custom-field-template.php:1001
+msgid "Page"
+msgstr "页面"
+
+#: custom-field-template/custom-field-template.php:818
+#: custom-field-template/custom-field-template.php:1002
+msgid "Custom Post Type (comma-deliminated)"
+msgstr "用户投稿类别（用半角逗号隔开）"
+
+#: custom-field-template/custom-field-template.php:820
+msgid "Post ID (comma-deliminated)"
+msgstr "投稿编号（用半角逗号隔开）"
+
+#: custom-field-template/custom-field-template.php:822
+#: custom-field-template/custom-field-template.php:1004
+msgid "Category ID (comma-deliminated)"
+msgstr "分类编码 （用半角逗号隔开）"
+
+#: custom-field-template/custom-field-template.php:824
+msgid "Page Template file name(s) (comma-deliminated)"
+msgstr "页面模板文件名 （用半角逗号隔开）"
+
+#: custom-field-template/custom-field-template.php:826
+msgid "Template Content"
+msgstr "模板内容"
+
+#: custom-field-template/custom-field-template.php:840
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "如果你希望利用自定义字段的媒体按钮一次插入大量的图片"
+
+#: custom-field-template/custom-field-template.php:841
+msgid "Use labels in place of custom keys"
+msgstr "用'labels'代替客户ID"
+
+#: custom-field-template/custom-field-template.php:844
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "如果你希望在`textarea`中自动添加 < p >< br >标签。"
+
+#: custom-field-template/custom-field-template.php:845
+msgid "Use wpautop function"
+msgstr "使用'wpautop'function方法"
+
+#: custom-field-template/custom-field-template.php:849
+msgid "In case that you would like to save values automatically in switching templates"
+msgstr "切换模板时自动保存设定值"
+
+#: custom-field-template/custom-field-template.php:850
+msgid "Use the auto save in switching templates"
+msgstr "切换模板时自动保存"
+
+#: custom-field-template/custom-field-template.php:854
+msgid "In case that you would like to forbid to use the initialize button."
+msgstr "禁用初始化按钮"
+
+#: custom-field-template/custom-field-template.php:855
+msgid "Disable the initialize button"
+msgstr "屏蔽初始化按钮功能"
+
+#: custom-field-template/custom-field-template.php:859
+msgid "In case that you would like to forbid to use the save button."
+msgstr "禁用保存按钮"
+
+#: custom-field-template/custom-field-template.php:860
+msgid "Disable the save button"
+msgstr "屏蔽保存按钮功能"
+
+#: custom-field-template/custom-field-template.php:864
+msgid "In case that you would like to forbid to use the default custom fields."
+msgstr "禁用默认自定义模板"
+
+#: custom-field-template/custom-field-template.php:865
+msgid "Disable the default custom fields"
+msgstr "屏蔽自定义模板功能"
+
+#: custom-field-template/custom-field-template.php:869
+msgid "In case that you would like to forbid to use the quick edit."
+msgstr "禁用快速编辑"
+
+#: custom-field-template/custom-field-template.php:870
+msgid "Disable the quick edit"
+msgstr "屏蔽快速编辑功能"
+
+#: custom-field-template/custom-field-template.php:874
+msgid "In case that you would like to forbid to display the custom field column on the edit post list page."
+msgstr "在编辑文章列表页面不显示"
+
+#: custom-field-template/custom-field-template.php:875
+msgid "Disable the custom field column (The quick edit also does not work.)"
+msgstr "禁用用户文章列表功能（快速编辑仍不可用）"
+
+#: custom-field-template/custom-field-template.php:879
+msgid "In case that you would like to replace the box title with the template title."
+msgstr "用输入标题代替模板标题"
+
+#: custom-field-template/custom-field-template.php:880
+msgid "Replace the box title"
+msgstr "代替标题"
+
+#: custom-field-template/custom-field-template.php:884
+msgid "In case that you would like to use the shortcode in the widget."
+msgstr "在widget中使用短标签功能"
+
+#: custom-field-template/custom-field-template.php:885
+msgid "Use the shortcode in the widget"
+msgstr "在widget中使用短标签功能"
+
+#: custom-field-template/custom-field-template.php:889
+msgid "In case that you would like to use the shortcode in the excerpt."
+msgstr "在输出文章中使用短标签功能"
+
+#: custom-field-template/custom-field-template.php:890
+msgid "Use the shortcode in the excerpt"
+msgstr "在输出文章中使用短标签功能"
+
+#: custom-field-template/custom-field-template.php:894
+#: custom-field-template/custom-field-template.php:913
+#: custom-field-template/custom-field-template.php:942
+#: custom-field-template/custom-field-template.php:973
+#: custom-field-template/custom-field-template.php:1014
+msgid "Update Options &raquo;"
+msgstr "更新设置 &raquo;"
+
+#: custom-field-template/custom-field-template.php:904
+msgid "ADMIN CSS"
+msgstr "管理 CSS"
+
+#: custom-field-template/custom-field-template.php:923
+msgid "[cft] and [cftsearch] Shortcode Format"
+msgstr "[cft] and [cftsearch] 短标签格式"
+
+#: custom-field-template/custom-field-template.php:926
+msgid "For [cft], [key] will be converted into the value of [key]."
+msgstr "将[cft][key][key]写入值"
+
+#: custom-field-template/custom-field-template.php:927
+msgid "For [cftsearch], [key] will be converted into the input field."
+msgstr "[cftsearch][key]写入输入区域"
+
+#: custom-field-template/custom-field-template.php:936
+#: custom-field-template/custom-field-template.php:1007
+msgid "Use PHP"
+msgstr "使用PHP语言"
+
+#: custom-field-template/custom-field-template.php:952
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP 代码(测试选项)"
+
+#: custom-field-template/custom-field-template.php:954
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "确定保存PHP代码？此操作存在风险！！！"
+
+#: custom-field-template/custom-field-template.php:955
+msgid "For `text` and `textarea`, you must set $value as an string."
+msgstr "`text``textarea`的值 $value 应该转换成string类型"
+
+#: custom-field-template/custom-field-template.php:957
+msgid "For `checkbox`, `radio`, and `select`, you must set $values as an array."
+msgstr "`checkbox`、`radio`、`select`值$values应该转换成array数组形式"
+
+#: custom-field-template/custom-field-template.php:983
+msgid "Auto Hook of `the_content()` (Experimental Option)"
+msgstr "`the_content()`内容中自动Hook (测试选项)"
+
+#: custom-field-template/custom-field-template.php:993
+msgid "Position"
+msgstr "位置"
+
+#: custom-field-template/custom-field-template.php:994
+msgid "Before the conetnt"
+msgstr "内容前"
+
+#: custom-field-template/custom-field-template.php:995
+msgid "After the conetnt"
+msgstr "内容后"
+
+#: custom-field-template/custom-field-template.php:996
+#, php-format
+msgid "Inside the conetnt ([cfthook hook=%d])"
+msgstr "内容中 （[cfthook hook=%d]）"
+
+#: custom-field-template/custom-field-template.php:1006
+msgid "Content"
+msgstr "内容"
+
+#: custom-field-template/custom-field-template.php:1008
+msgid "Apply to feeds"
+msgstr "支持feeds输出"
+
+#: custom-field-template/custom-field-template.php:1024
+msgid "Rebuild Value Counts"
+msgstr "重置统计"
+
+#: custom-field-template/custom-field-template.php:1026
+msgid "Are you sure to rebuild all value counts?"
+msgstr "确定重置所有统计？"
+
+#: custom-field-template/custom-field-template.php:1030
+msgid "Value Counts are used for temporarily saving how many values in each key. Set `valueCount = true` into fields."
+msgstr "统计数据用来计算每个键有多少键值，写入`valueCount = true`。"
+
+#: custom-field-template/custom-field-template.php:1034
+msgid "Rebuild Value Counts &raquo;"
+msgstr "重建统计 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1045
+msgid "Rebuild Tags"
+msgstr "重建标签"
+
+#: custom-field-template/custom-field-template.php:1047
+msgid "Are you sure to rebuild tags?"
+msgstr "确定重建标签？"
+
+#: custom-field-template/custom-field-template.php:1051
+msgid "Rebuild Tags &raquo;"
+msgstr "重建标签 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1062
+msgid "Option List"
+msgstr "设置列表"
+
+#: custom-field-template/custom-field-template.php:1224
+msgid "Export Options"
+msgstr "导出设置"
+
+#: custom-field-template/custom-field-template.php:1230
+msgid "Export Options &raquo;"
+msgstr "导出设置 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1240
+msgid "Import Options"
+msgstr "导入设置"
+
+#: custom-field-template/custom-field-template.php:1242
+msgid "Are you sure to import options? Options you set will be overwritten."
+msgstr "确定导入设置？已有的设置将被覆盖。"
+
+#: custom-field-template/custom-field-template.php:1246
+msgid "Import Options &raquo;"
+msgstr "导入设置 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1256
+msgid "Reset Options"
+msgstr "重置设置"
+
+#: custom-field-template/custom-field-template.php:1258
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "确定重置设置？所有设置将被还原到默认设置。"
+
+#: custom-field-template/custom-field-template.php:1262
+msgid "Reset Options &raquo;"
+msgstr "重置设置 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1272
+msgid "Delete Options"
+msgstr "删除设置"
+
+#: custom-field-template/custom-field-template.php:1274
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "确定删除设置？你的设置将被删除。"
+
+#: custom-field-template/custom-field-template.php:1278
+msgid "Delete Options &raquo;"
+msgstr "删除设置 &raquo;"
+
+#: custom-field-template/custom-field-template.php:1288
+msgid "Donation"
+msgstr "捐献"
+
+#: custom-field-template/custom-field-template.php:1290
+msgid "If you liked this plugin, please make a donation via paypal! Any amount is welcome. Your support is much appreciated."
+msgstr "如果喜欢这个插件，给作者捐献。"
+
+#: custom-field-template/custom-field-template.php:1386
+#: custom-field-template/custom-field-template.php:1507
+#: custom-field-template/custom-field-template.php:1587
+#: custom-field-template/custom-field-template.php:1761
+#: custom-field-template/custom-field-template.php:1891
+msgid "Add New"
+msgstr "添加"
+
+#: custom-field-template/custom-field-template.php:1517
+msgid "Clear"
+msgstr "清除"
+
+#: custom-field-template/custom-field-template.php:1603
+msgid "Select"
+msgstr "选择"
+
+#: custom-field-template/custom-field-template.php:1668
+msgid "Add an Image"
+msgstr "添加一张图片"
+
+#: custom-field-template/custom-field-template.php:1673
+msgid "Add Video"
+msgstr "添加一个视频"
+
+#: custom-field-template/custom-field-template.php:1678
+msgid "Add Audio"
+msgstr ""
+
+#: custom-field-template/custom-field-template.php:1682
+msgid "Add Media"
+msgstr "添加一个音频"
+
+#: custom-field-template/custom-field-template.php:1689
+msgid "Toggle"
+msgstr "切换"
+
+#: custom-field-template/custom-field-template.php:1781
+#: custom-field-template/custom-field-template.php:1893
+msgid "Delete"
+msgstr "删除"
+
+#: custom-field-template/custom-field-template.php:2142
+msgid "Initialize"
+msgstr "初始化"
+
+#: custom-field-template/custom-field-template.php:2143
+msgid "Are you sure to reset current values? Default values will be loaded."
+msgstr "确定重置现在设置？默认设置将被载入。"
+
+#: custom-field-template/custom-field-template.php:2148
+msgid "Save"
+msgstr "保存"
+
+#: custom-field-template/custom-field-template.php:2779
+msgid "Search &raquo;"
+msgstr "搜索 &raquo;"
+
+#~ msgid ""
+#~ "In case that you would like to insert multiple images at once in use of "
+#~ "the custom field media buttons"
+#~ msgstr "如果你希望利用自定义字段的媒体按钮一次插入多张图片"
+
+#~ msgid "Use multiple image inset"
+#~ msgstr "一次插入多张图片"
+
+#~ msgid "Caution:"
+#~ msgstr "注意："
+
+#~ msgid ""
+#~ "You need to edit `wp-admin/includes/media.php`. Delete or comment out the "
+#~ "code in the function media_send_to_editor."
+#~ msgstr ""
+#~ "`wp-admin/includes/media.php`删除或者注释。"
+#~ "media_send_to_editor。"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "Quick Edit"
+#~ msgstr "快速编辑"
+
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近投稿 Ext"
+
+#~ msgid "camera"
+#~ msgstr "摄像机"
+
+#~ msgid "aperture"
+#~ msgstr "小孔"
+
+#~ msgid "focal_length"
+#~ msgstr "焦距"
+
+#~ msgid "ISO"
+#~ msgstr "ISO"
+
+#~ msgid "shutter_speed"
+#~ msgstr "快门速度"
+
+#~ msgid "created_timestamp"
+#~ msgstr "时间戳"

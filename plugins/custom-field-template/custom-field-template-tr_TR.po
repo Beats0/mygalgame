@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-12 15:19+0900\n"
+"PO-Revision-Date: 2009-01-16 02:17+0200\n"
+"Last-Translator: Omer Faruk - wordpress.info.tr <admin@wordpress.info.tr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:83
+#: custom-field-template/custom-field-template.php:84
+#: custom-field-template/custom-field-template.php:161
+#: custom-field-template/custom-field-template.php:210
+#: custom-field-template/custom-field-template.php:740
+msgid "Custom Field Template"
+msgstr "Geleneksel Alan Teması"
+
+#: custom-field-template/custom-field-template.php:95
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: custom-field-template/custom-field-template.php:106
+msgid "Default Template"
+msgstr "Mevcut Tema"
+
+#: custom-field-template/custom-field-template.php:181
+#: custom-field-template/custom-field-template.php:185
+#: custom-field-template/custom-field-template.php:193
+msgid "Options updated."
+msgstr "Ayarlar güncellendi."
+
+#: custom-field-template/custom-field-template.php:198
+msgid "Options resetted."
+msgstr "Ayarlar sıfırlandı."
+
+#: custom-field-template/custom-field-template.php:202
+msgid "Options deleted."
+msgstr "Ayarlar silindi"
+
+#: custom-field-template/custom-field-template.php:216
+msgid "Custom Field Template Options"
+msgstr "Geleneksel Alan Tema Ayarları"
+
+#: custom-field-template/custom-field-template.php:226
+#, php-format
+msgid "Template Title %d"
+msgstr "Tema başlığı %d"
+
+#: custom-field-template/custom-field-template.php:228
+#, php-format
+msgid "Template Instruction %d"
+msgstr "Tema açıklaması %d"
+
+#: custom-field-template/custom-field-template.php:230
+#, php-format
+msgid "Template Content %d"
+msgstr "Tema eklentileri %d"
+
+#: custom-field-template/custom-field-template.php:237
+msgid "In case that you would like to insert multiple images at once in use of the custom field media buttons"
+msgstr "Senin, kullanımda gelenek alan medya düğmelerinin hemen çeşitli şekilleri sokmayı beğenecek olduğun olasılığına karşı"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "Use multiple image inset"
+msgstr "Çoklu araya sokulmuş resimi kullan"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "Caution:"
+msgstr "Uyarı:"
+
+#: custom-field-template/custom-field-template.php:238
+msgid "You need to edit `wp-admin/includes/media.php`. Delete or comment out the code in the function media_send_to_editor."
+msgstr "`wp-admin/includes/media.php` dosyasını düzenlemelisin. Sil veya ...... media_send_to_editor. fonksiyon içinde."
+
+#: custom-field-template/custom-field-template.php:242
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "Eğer 'etiket' ayarlanmışsa, bu duruma göre geleneksel anahtarları etiketlerle değiştirmek istersin."
+
+#: custom-field-template/custom-field-template.php:243
+msgid "Use labels in place of custom keys"
+msgstr "Geleneksel anahtarların yerine etiketleri kullan"
+
+#: custom-field-template/custom-field-template.php:246
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "Bu durumda, text alanlarına otomatik olarak p ve br etiketlerini eklemek istersin."
+
+#: custom-field-template/custom-field-template.php:247
+msgid "Use wpautop function"
+msgstr "'wpautop' fonksiyonunu kullan"
+
+#: custom-field-template/custom-field-template.php:251
+#: custom-field-template/custom-field-template.php:270
+#: custom-field-template/custom-field-template.php:297
+msgid "Update Options &raquo;"
+msgstr "Ayarları güncelle &raquo;"
+
+#: custom-field-template/custom-field-template.php:260
+#: custom-field-template/custom-field-template.php:279
+#: custom-field-template/custom-field-template.php:306
+#: custom-field-template/custom-field-template.php:371
+#: custom-field-template/custom-field-template.php:387
+msgid "Click to toggle"
+msgstr "Düğmeye Tıkla"
+
+#: custom-field-template/custom-field-template.php:261
+msgid "CSS"
+msgstr "CSS"
+
+#: custom-field-template/custom-field-template.php:280
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP KODU (Deneysel Seçenek)"
+
+#: custom-field-template/custom-field-template.php:282
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "PHP kodlarını kaydetmek istediğinizden emin misiniz? Lütfen kendi riskinizde yapın."
+
+#: custom-field-template/custom-field-template.php:283
+msgid "This option is available only for `radio` and `select` types. You must set $values as an array."
+msgstr "Bu seçenek sadece `radio` ve `select`tipleri için geçerlidir. $values'i bir dizin olarak ayarlamalısınız."
+
+#: custom-field-template/custom-field-template.php:307
+msgid "Option List"
+msgstr "Seçim Listesi"
+
+#: custom-field-template/custom-field-template.php:372
+msgid "Reset Options"
+msgstr "Ayarları Sıfırla"
+
+#: custom-field-template/custom-field-template.php:374
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Ayarları sıfırlamak istediğinizden emin misiniz? Tüm ayarlar sıfırlanacak ve mevcut ayarlara dönülecek."
+
+#: custom-field-template/custom-field-template.php:378
+msgid "Unset Options &raquo;"
+msgstr "Belirsiz Ayarlar &raquo;"
+
+#: custom-field-template/custom-field-template.php:388
+msgid "Delete Options"
+msgstr "Ayarları Sil"
+
+#: custom-field-template/custom-field-template.php:390
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "Ayarları silmek istediğinizden emin misiniz? Ayarladığınız seçenekler silinecek."
+
+#: custom-field-template/custom-field-template.php:394
+msgid "Delete Options &raquo;"
+msgstr "Ayarları Sil &raquo;"
+
+#: custom-field-template/custom-field-template.php:532
+msgid "Clear"
+msgstr "Temizle"
+
+#: custom-field-template/custom-field-template.php:633
+msgid "Add Media"
+msgstr "Medya Ekle"
+
+#: custom-field-template/custom-field-template.php:635
+msgid "Add an Image"
+msgstr "Bir Resim Ekle"
+
+#: custom-field-template/custom-field-template.php:637
+msgid "Add Video"
+msgstr "Video Ekle"
+
+#: custom-field-template/custom-field-template.php:639
+msgid "Add Audio"
+msgstr "Ses Dosyası Ekle"
+
+#: custom-field-template/custom-field-template.php:650
+msgid "Toggle"
+msgstr "Düğme"
+
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近の投稿 Ext"
+#~ msgid "camera"
+#~ msgstr "機種"
+#~ msgid "aperture"
+#~ msgstr "絞り値"
+#~ msgid "focal_length"
+#~ msgstr "焦点距離"
+#~ msgid "ISO"
+#~ msgstr "ISO"
+#~ msgid "shutter_speed"
+#~ msgstr "シャッタースピード"
+#~ msgid "created_timestamp"
+#~ msgstr "撮影日時"
+

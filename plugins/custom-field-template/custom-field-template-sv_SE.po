@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-09 21:06+0900\n"
+"PO-Revision-Date: 2012-02-13 11:52+0100\n"
+"Last-Translator: Pontus <pontus@fristil.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: custom-field-template\n"
+
+#: custom-field-template/custom-field-template.php:83
+#: custom-field-template/custom-field-template.php:84
+#: custom-field-template/custom-field-template.php:178
+#: custom-field-template/custom-field-template.php:235
+#: custom-field-template/custom-field-template.php:824
+msgid "Custom Field Template"
+msgstr "Custom Field Template"
+
+#: custom-field-template/custom-field-template.php:95
+msgid "Settings"
+msgstr "Inställningar"
+
+#: custom-field-template/custom-field-template.php:106
+msgid "Default Template"
+msgstr "Standardmall"
+
+#: custom-field-template/custom-field-template.php:198
+#: custom-field-template/custom-field-template.php:202
+#: custom-field-template/custom-field-template.php:210
+#: custom-field-template/custom-field-template.php:218
+msgid "Options updated."
+msgstr "Inställningarna har sparats."
+
+#: custom-field-template/custom-field-template.php:223
+msgid "Options resetted."
+msgstr "Inställningarna har återställts."
+
+#: custom-field-template/custom-field-template.php:227
+msgid "Options deleted."
+msgstr "Inställningarna har raderats."
+
+#: custom-field-template/custom-field-template.php:241
+msgid "Custom Field Template Options"
+msgstr "Inställningar för Custom Field Template"
+
+#: custom-field-template/custom-field-template.php:251
+#, php-format
+msgid "Template Title %d"
+msgstr "Mallens namn %d"
+
+#: custom-field-template/custom-field-template.php:253
+#, php-format
+msgid "Template Instruction %d"
+msgstr "Mallens instruktioner %d"
+
+#: custom-field-template/custom-field-template.php:255
+#, php-format
+msgid "Template Content %d"
+msgstr "Mallens innehåll %d"
+
+#: custom-field-template/custom-field-template.php:262
+msgid "In case that you would like to insert multiple images at once in use of the custom field media buttons"
+msgstr "Om du vill infoga flera bilder samtidigt när du använder mediaknapparna för specialfält"
+
+# Deutsche Übersetzung: Franz Josef Kaiser.
+#: custom-field-template/custom-field-template.php:263
+msgid "Use multiple image inset"
+msgstr "Aktivera stöd för att infoga flera bilder"
+
+#: custom-field-template/custom-field-template.php:263
+msgid "Caution:"
+msgstr "Varning:"
+
+#: custom-field-template/custom-field-template.php:263
+msgid "You need to edit `wp-admin/includes/media.php`. Delete or comment out the code in the function media_send_to_editor."
+msgstr "Du behöver ändra `wp-admin/includes/media.php` Radera eller kommentera ut koden i funktionen media_send_to_editor."
+
+#: custom-field-template/custom-field-template.php:267
+msgid "In case that you would like to replace custom keys by labels if `label` is set"
+msgstr "Om du vill ersätta specialfältens nycklar med etiketter, om 'etikett' är inställd"
+
+#: custom-field-template/custom-field-template.php:268
+msgid "Use labels in place of custom keys"
+msgstr "Använd etiketter istället för nycklar"
+
+#: custom-field-template/custom-field-template.php:271
+msgid "In case that you would like to add p and br tags in textareas automatically"
+msgstr "Om du vill lägga till p och br-taggar i textarea-fält automatiskt"
+
+#: custom-field-template/custom-field-template.php:272
+msgid "Use wpautop function"
+msgstr "Använd wpautop-funktionen"
+
+#: custom-field-template/custom-field-template.php:276
+#: custom-field-template/custom-field-template.php:295
+#: custom-field-template/custom-field-template.php:322
+#: custom-field-template/custom-field-template.php:350
+msgid "Update Options &raquo;"
+msgstr "Uppdatera inställningar &raquo;"
+
+#: custom-field-template/custom-field-template.php:285
+#: custom-field-template/custom-field-template.php:304
+#: custom-field-template/custom-field-template.php:331
+#: custom-field-template/custom-field-template.php:359
+#: custom-field-template/custom-field-template.php:431
+#: custom-field-template/custom-field-template.php:447
+msgid "Click to toggle"
+msgstr "Klicka för att växla"
+
+#: custom-field-template/custom-field-template.php:286
+msgid "CSS"
+msgstr "CSS"
+
+#: custom-field-template/custom-field-template.php:305
+msgid "[cft] Shortcode Format"
+msgstr "[cft] Shortcode Format"
+
+#: custom-field-template/custom-field-template.php:308
+msgid "[key] will be converted into the value of [key]."
+msgstr "[key] kommer att omvandlas till värdet för [key]."
+
+#: custom-field-template/custom-field-template.php:332
+msgid "PHP CODE (Experimental Option)"
+msgstr "PHP-kod (Experimentell)"
+
+#: custom-field-template/custom-field-template.php:334
+msgid "Are you sure to save PHP codes? Please do it at your own risk."
+msgstr "Är du säker på att du vill spara PHP-kod? Det här sker på egen risk."
+
+#: custom-field-template/custom-field-template.php:335
+msgid "This option is available only for `radio` and `select` types. You must set $values as an array."
+msgstr "Den här inställningen gäller endast radio- och select-fält. Du måste ställa in $values som en array."
+
+#: custom-field-template/custom-field-template.php:360
+msgid "Option List"
+msgstr "Inställningslista"
+
+#: custom-field-template/custom-field-template.php:432
+msgid "Reset Options"
+msgstr "Nollställ inställningar"
+
+#: custom-field-template/custom-field-template.php:434
+msgid "Are you sure to reset options? Options you set will be reset to the default settings."
+msgstr "Är du säker på att du vill återställa inställningarna? Inställningar återgår till standardinställningar."
+
+#: custom-field-template/custom-field-template.php:438
+msgid "Unset Options &raquo;"
+msgstr "Åsterställ inställningar &raquo;"
+
+#: custom-field-template/custom-field-template.php:448
+msgid "Delete Options"
+msgstr "Radera inställningar"
+
+#: custom-field-template/custom-field-template.php:450
+msgid "Are you sure to delete options? Options you set will be deleted."
+msgstr "Är du säker på att du vill radera inställningar? Inställningar som du har gjort kommer att raderas."
+
+#: custom-field-template/custom-field-template.php:454
+msgid "Delete Options &raquo;"
+msgstr "Radera inställningar &raquo;"
+
+#: custom-field-template/custom-field-template.php:597
+msgid "Clear"
+msgstr "Rensa"
+
+#: custom-field-template/custom-field-template.php:712
+msgid "Add Media"
+msgstr "Lägg till media"
+
+#: custom-field-template/custom-field-template.php:714
+msgid "Add an Image"
+msgstr "Lägg till en bild"
+
+#: custom-field-template/custom-field-template.php:716
+msgid "Add Video"
+msgstr "Lägg till video"
+
+#: custom-field-template/custom-field-template.php:718
+msgid "Add Audio"
+msgstr "Lägg till ljud"
+
+#: custom-field-template/custom-field-template.php:729
+msgid "Toggle"
+msgstr "Växla"
+
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近の投稿 Ext"
+
+#~ msgid "camera"
+#~ msgstr "機種"
+
+#~ msgid "aperture"
+#~ msgstr "絞り値"
+
+#~ msgid "focal_length"
+#~ msgstr "焦点距離"
+
+#~ msgid "ISO"
+#~ msgstr "ISO"
+
+#~ msgid "shutter_speed"
+#~ msgstr "シャッタースピード"
+
+#~ msgid "created_timestamp"
+#~ msgstr "撮影日時"
