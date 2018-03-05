@@ -1593,18 +1593,10 @@
 </section>
     <div class="GalMenu GalDropDown">
         <div class="circle" id="gal">
-            <div class="ring">
-                <a href="https://beats0.github.io/www.mygalgame.com" class="menuItem">首页</a>
-                <a href="https://beats0.github.io/www.mygalgame.com/page/2"  class="menuItem">下一页</a>                
-                <a href="https://beats0.github.io/www.mygalgame.com/message"  class="menuItem">留言版</a>
-                <a href="https://beats0.github.io/www.mygalgame.com/?orderby=views"  class="menuItem">热门排行</a>
-                <a href="https://beats0.github.io/www.mygalgame.com/gengxinrizhi"  class="menuItem">更新日志</a>
-                <a href="https://beats0.github.io/www.mygalgame.com/page/1"  class="menuItem">上一页</a>
-            </div>
-            <audio id="audio" src="<?php echo get_template_directory_uri(); ?>/ui/audio/onj.mp3"></audio>
+            <?php pagination($query_string); ?>
+            <audio id="audio" src="http://localhost/wordpress/wp-content/themes/mygalgame/ui/audio/onj.mp3"></audio>
         </div>
     </div>
-
     <div id="overlay" class="magnify">
       <?php
             srand((float) microtime() * 10000000);
@@ -2611,8 +2603,8 @@
             $post_thumbnail_h_link[1000] = "859487587010599845/9A4B31AF712CC08250083188470177C368872396/";
             $rnH = array_rand($post_thumbnail_h_link);
             echo '<div class="large" style="background-image:url(https://steamuserimages-a.akamaihd.net/ugc/'.$post_thumbnail_h_link[$rnH].')"></div>'
-          ?>      
-        <img class="small" src="<?php echo get_template_directory_uri(); ?>/ui/images/rpic.png" width="1920">        
+          ?>
+        <img class="small" src="<?php echo get_template_directory_uri(); ?>/ui/images/rpic.png" width="1920">
     </div>
 
 <header id="zan-header" class="navbar navbar-inverse">

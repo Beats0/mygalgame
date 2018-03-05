@@ -100,37 +100,29 @@ add_filter('smilies_src', 'custom_smilies_src', 10, 2);
     }
 
     // 分页标准
-    // function pagination($query_string){
-    //     global $posts_per_page, $paged;
-    //     $my_query = new WP_Query($query_string ."&posts_per_page=-1");
-    //     $total_posts = $my_query->post_count;
-    //     if(empty($paged))$paged = 1;
-    //     $prev = $paged - 1;
-    //     $next = $paged + 1;
-    //     $range = 2; // only edit this if you want to show more page-links
-    //     $showitems = ($range * 2)+1;
-         
-    //     $pages = ceil($total_posts/$posts_per_page);
-    //     if(1 != $pages){
-    //     echo "<div class='ring'>";
-    //     echo ($paged > 2 && $paged+$range+1 > $pages && $showitems < $pages)? "
-    //     <a  href='".get_pagenum_link(1)."'>最前</a>":"";
-    //     echo ($paged > 1 && $showitems < $pages)? "
-    //     <a href='".get_pagenum_link($prev)."'>上一页</a>":"";
-         
-    //     for ($i=1; $i <= $pages; $i++){
-    //     if (1 != $pages &&( !($i >= $paged+$range+1 ||
-    //         $i <= $paged-$range-1) || $pages <= $showitems )){
-    //     echo ($paged == $i)? "<span class='current'>".$i."</span>":
-    //     "<a href='".get_pagenum_link($i)."' class='inactive' >".$i."</a>";
-    //     }
-    //     }
-         
-    //     echo ($paged < $pages && $showitems < $pages) ?
-    //     "<a href='".get_pagenum_link($next)."'>下一页</a>" :"";
-    //     echo ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) ?
-    //     "<a href='".get_pagenum_link($pages)."'>最后</a>":"";
-    //     echo "</div>\n";
-    //     }
-    //     }
+    function pagination($query_string){
+        global $posts_per_page, $paged;
+        $my_query = new WP_Query($query_string ."&posts_per_page=-1");
+        $total_posts = $my_query->post_count;
+        if(empty($paged))$paged = 1;
+        $prev = $paged - 1;
+        $next = $paged + 1;
+        $range = 0;    // 如果你想展示更多分页链接，修改它！
+        $showitems = ($range * 2)+1;
+        $pages = ceil($total_posts/$posts_per_page);
+        if(1 != $pages){
+            echo "<div class='ring'>";
+            echo ($paged > 2 && $paged+$range+1 > $pages && $showitems < $pages)? "<a href='".get_pagenum_link(1)."' class='menuItem'>最前</a>":"<a href='".get_pagenum_link(1)."' class='menuItem'>最前</a>";
+            echo ($paged < $pages && $showitems < $pages) ? "<a href='".get_pagenum_link($next)."' class='menuItem'>下一页</a>" :"<a href='".get_pagenum_link($paged)."' class='menuItem'>下一页</a>";
+            for ($i=1; $i <= $pages; $i++){
+                if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )) {
+                    echo ($paged == $i)? "<a href='".get_pagenum_link($paged)."' class=' menuItem' >当前第".$i."页</a>":"<a href='".get_pagenum_link($paged)."' class='menuItem' >当前第".$i."页</a>";
+                }
+            }
+            echo ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) ? "<a href='".get_pagenum_link($pages)."' class='menuItem'>最后</a>":"<a href='".get_pagenum_link($paged)."' class='menuItem'>最后</a>";
+            echo  "<a href='".get_pagenum_link(1)."/message' class='menuItem'>留言板</a>";
+            echo ($paged > 1 && $showitems < $pages)? "<a href='".get_pagenum_link($prev)."' class='menuItem'>上一页</a>":"<a href='".get_pagenum_link(1)."' class='menuItem'>上一页</a>";
+            echo "</div>\n";
+        }
+    }
 ?>

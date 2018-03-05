@@ -14,6 +14,7 @@
 * [侧边栏与菜单](#侧边栏与菜单)
 * [Q&A](#qa)
 * [相关](#相关)
+* [引用](#引用)
 * [License](#License)
 
 #### 安装
@@ -89,16 +90,12 @@ Finished Message
 
 ![小工具](https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwr3gbj31aq0o2q51.jpg)
 
-https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwr3gbj31aq0o2q51.jpg
-
 ##### 导航栏设置说明
 1.新建菜单（网站后台—>外观—>菜单）
 
 可以自定义链接，结构不对齐就是子项目的意思
 
 ![菜单](https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwo8tuj30rl0nvwfj.jpg)
-
-https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwo8tuj30rl0nvwfj.jpg
 
 2.使用 `FontAwesome` 图标
 在导航标签前添加类似`<i class="fa fa-home"></i>`的代码，具体图标Class参照 [FontAwesome](http://fontawesome.dashgame.com/)
@@ -210,17 +207,11 @@ zanblog2.0.5及之后版本集成了一个功能，后台本身就有链接这�
 解答:路径不对，请仔细看一下sidebar.php文件，里面关于文章存档的链接是写死的。
 ![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue75kpj30fe031aag.jpg)
 
-https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue75kpj30fe031aag.jpg
-
 需要新建页面，同时选择模版为文章存档。
 
 ![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue76haj30fo026wel.jpg)
 
-https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue76haj30fo026wel.jpg
-
 ![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue7b8pj307w04v0st.jpg)
-
-https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue7b8pj307w04v0st.jpg
 
 >17.想要更换网站的颜色/配色，需要怎么做？
 
@@ -260,7 +251,16 @@ ZanblogV2.0.7版本，专门针对IE8进行了兼容，所以可以很明确的�
 
 但是有一些赞友反映说自己安装的是IE8，但不兼容是什么原因？这通常是因为你的浏览器虽然是IE8，但是启用了IE8兼容模式，而所谓的兼容模式实际上是IE7，大家可以通过点击浏览器中的工具－开发人员工具，查看工具栏最右边是否是浏览器模式：IE8，文本模式：IE8标准（正确），而如果是浏览器模式：IE8兼容模式，文本模式：IE7标准（错误），则实际上用的是IE7，对于IE7，Zanblog是不兼容的。
 
->24 建议把自己的WordPress类库文件升级，例如jQuery等js类库，这样是为了提高网页界面加载速度，将最新类库的代码覆盖到`wordpress\wp-includes\js\` 或 `wordpress\wp-content\themes\mygalgame\ui\js\`对应对的文件即可，如需添加js文件，在`wordpress\wp-content\themes\mygalgame\ui\js\`添加js文件，并在`wordpress\wp-content\themes\mygalgame\includes\theme-functions.php`注册调用
+>24.如何修改每页展示文章数量和评论数量
+
+
+文章： `后台`－>`设置`－>`阅读`
+
+评论： `后台`－>`设置`－>`讨论`
+
+建议把设置都更改一下
+
+>24.建议把自己的WordPress类库文件升级，例如jQuery等js类库，这样是为了提高网页界面加载速度，将最新类库的代码覆盖到`wordpress\wp-includes\js\` 或 `wordpress\wp-content\themes\mygalgame\ui\js\`对应对的文件即可，如需添加js文件，在`wordpress\wp-content\themes\mygalgame\ui\js\`添加js文件，并在`wordpress\wp-content\themes\mygalgame\includes\theme-functions.php`注册调用
 
 ------------------------------------------------------------------
 
@@ -273,9 +273,26 @@ ZanblogV2.0.7版本，专门针对IE8进行了兼容，所以可以很明确的�
 
 ------------------------------------------------------------------
 
+#### 引用
+
+- Bootstrap(css,js):[GitHub:Bootstrap](https://github.com/twbs/bootstrap)
+- AOS.js(css,js):[GitHub:AOS.js](https://github.com/michalsnik/aos)
+- font-awesome：(css)[GitHub:font-awesome](https://github.com/FortAwesome/Font-Awesome)
+- WORDPRESS：[wordpress.org](https://wordpress.org/themes/)
+- WORDPRESS SVN and PHP：(PHP)[GitHub:WordPress](https://github.com/WordPress/WordPress)
+- WP Ajax Edit Comments:[https://wordpress.org/plugins/wp-ajax-edit-comments/](https://wordpress.org/plugins/wp-ajax-edit-comments/)
+- highslide.js(js):[http://highslide.com](http://highslide.com) and [https://www.highcharts.com/demo](https://www.highcharts.com/demo)
+- jquery:[GitHub:jquery](https://github.com/jquery/jquery)
+- jquery.lazyload:[GitHub:jquery.lazyload](https://github.com/tuupola/jquery_lazyload)
+- jQuery-Colorbox:[GitHub:jQuery-Colorbox](https://github.com/afranken/jQuery-Colorbox)
+- jquery-migrate:[GitHub:jquery-migrate](https://github.com/jquery/jquery-migrate)
+- jquery-cookie:[GitHub:jquery-cookie](https://github.com/carhartl/jquery-cookie)
+- jQuery Validate:[GitHub:jQuery Validate](https://github.com/DiegoLopesLima/validate)
+
+------------------------------------------------------------------
+
 #### License
 
-```
 The MIT License (MIT)
 
 Copyright (c) 2013 yeahzan
@@ -297,4 +314,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
