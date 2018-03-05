@@ -1594,7 +1594,7 @@
     <div class="GalMenu GalDropDown">
         <div class="circle" id="gal">
             <?php pagination($query_string); ?>
-            <audio id="audio" src="http://localhost/wordpress/wp-content/themes/mygalgame/ui/audio/onj.mp3"></audio>
+            <audio id="audio" src="<?php echo get_template_directory_uri(); ?>/ui/audio/onj.mp3"></audio>
         </div>
     </div>
     <div id="overlay" class="magnify">
