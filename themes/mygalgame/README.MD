@@ -89,14 +89,14 @@ Finished Message
 
 你还可以通过拖动来对这些组件的显示顺序进行排序。
 
-![小工具](https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwr3gbj31aq0o2q51.jpg)
+![小工具](https://wx1.sinaimg.cn/large/006nOlwNgy1fp12zwr3gbj31aq0o2q51.jpg)
 
 ##### 导航栏设置说明
 1.新建菜单（网站后台—>外观—>菜单）
 
 可以自定义链接,结构不对齐就是子项目的意思
 
-![菜单](https://ws1.sinaimg.cn/large/006nOlwNgy1fp12zwo8tuj30rl0nvwfj.jpg)
+![菜单](https://wx1.sinaimg.cn/large/006nOlwNgy1fp12zwo8tuj30rl0nvwfj.jpg)
 
 2.使用 `FontAwesome` 图标
 在导航标签前添加类似`<i class="fa fa-home"></i>`的代码,具体图标Class参照 [FontAwesome](http://fontawesome.dashgame.com/)
@@ -125,7 +125,7 @@ Finished Message
 <div class="alert alert-success">alert alert-success</div>
 
 <!--图片效果-->
-<div class="dAnim"><a href="https://ws1.sinaimg.cn/large/006nOlwNgy1fp0v3noihrj337b29eu0x.jpg" class="highslide-image " onclick="return hs.expand(this);"><img title="点击放大" src="https://ws1.sinaimg.cn/large/006nOlwNgy1fp0v3noihrj337b29eu0x.jpg" alt="" width="650"></a></div>
+<div class="dAnim"><a href="https://wx1.sinaimg.cn/large/006nOlwNgy1fp0v3noihrj337b29eu0x.jpg" class="highslide-image " onclick="return hs.expand(this);"><img title="点击放大" src="https://wx1.sinaimg.cn/large/006nOlwNgy1fp0v3noihrj337b29eu0x.jpg" alt="" width="650"></a></div>
 ```
 ------------------------------------------------------------------
 
@@ -223,13 +223,13 @@ zanblog2.0.5及之后版本集成了一个功能,后台本身就有链接这一�
 >16.点击文章存档出現404 error的頁面
 
 解答:路径不对,请仔细看一下sidebar.php文件,里面关于文章存档的链接是写死的。
-![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue75kpj30fe031aag.jpg)
+![](https://wx1.sinaimg.cn/large/006nOlwNgy1fp13ue75kpj30fe031aag.jpg)
 
 需要新建页面,同时选择模版为文章存档。
 
-![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue76haj30fo026wel.jpg)
+![](https://wx1.sinaimg.cn/large/006nOlwNgy1fp13ue76haj30fo026wel.jpg)
 
-![](https://ws1.sinaimg.cn/large/006nOlwNgy1fp13ue7b8pj307w04v0st.jpg)
+![](https://wx1.sinaimg.cn/large/006nOlwNgy1fp13ue7b8pj307w04v0st.jpg)
 
 >17.想要更换网站的颜色/配色,需要怎么做？
 
